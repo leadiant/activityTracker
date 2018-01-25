@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>340B/PHS</fullName>
+        <default>false</default>
+        <label>340B/PHS</label>
+    </customValue>
+    <customValue>
+        <fullName>ASSEMBIA</fullName>
+        <default>false</default>
+        <label>ASSEMBIA</label>
+    </customValue>
+    <customValue>
+        <fullName>Fresenius Medical Care</fullName>
+        <default>false</default>
+        <label>Fresenius Medical Care</label>
+    </customValue>
+    <customValue>
+        <fullName>HPG</fullName>
+        <default>false</default>
+        <label>HPG</label>
+    </customValue>
+    <customValue>
+        <fullName>Innovatix</fullName>
+        <default>false</default>
+        <label>Innovatix</label>
+    </customValue>
+    <customValue>
+        <fullName>Intalere</fullName>
+        <default>false</default>
+        <label>Intalere</label>
+    </customValue>
+    <customValue>
+        <fullName>Integrated Nephrology Network</fullName>
+        <default>false</default>
+        <label>Integrated Nephrology Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Kaiser Permanente</fullName>
+        <default>false</default>
+        <label>Kaiser Permanente</label>
+    </customValue>
+    <customValue>
+        <fullName>MHA</fullName>
+        <default>false</default>
+        <label>MHA</label>
+    </customValue>
+    <customValue>
+        <fullName>PDM</fullName>
+        <default>false</default>
+        <label>PDM</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier</fullName>
+        <default>false</default>
+        <label>Premier</label>
+    </customValue>
+    <customValue>
+        <fullName>Renal Purchasing Group</fullName>
+        <default>false</default>
+        <label>Renal Purchasing Group</label>
+    </customValue>
+    <customValue>
+        <fullName>ROI</fullName>
+        <default>false</default>
+        <label>ROI</label>
+    </customValue>
+    <customValue>
+        <fullName>VA/FSS</fullName>
+        <default>false</default>
+        <label>VA/FSS</label>
+    </customValue>
+    <customValue>
+        <fullName>VIZIENT</fullName>
+        <default>false</default>
+        <label>VIZIENT</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGMASANTÉ</fullName>
+        <default>false</default>
+        <label>SIGMASANTÉ</label>
+    </customValue>
+    <customValue>
+        <fullName>GACEQ</fullName>
+        <default>false</default>
+        <label>GACEQ</label>
+    </customValue>
+    <customValue>
+        <fullName>GACOQ</fullName>
+        <default>false</default>
+        <label>GACOQ</label>
+    </customValue>
+    <description>Group purchasing organization</description>
+    <masterLabel>GPO</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

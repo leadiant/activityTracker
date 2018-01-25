@@ -1,0 +1,5 @@
+<aura:component controller="mrktngMtrlDataSrvApexController">
+    <aura:method name="getActiveMarketingMaterials" action="{!c.getActiveMarketingMaterials}" >
+        <aura:attribute name="callback" type="function" />
+    </aura:method>
+</aura:component>

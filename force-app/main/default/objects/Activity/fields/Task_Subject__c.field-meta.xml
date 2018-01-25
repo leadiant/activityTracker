@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Subject__c</fullName>
+    <description>Standard Subject field does not support drop down box even though it is defined as Pick list. This field is created to solve the issue. Workflow will copy the field value to standard subject field.</description>
+    <externalId>false</externalId>
+    <label>Task Subject</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call</fullName>
+                <default>true</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+                <label>Send Letter</label>
+            </value>
+            <value>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+                <label>Send Quote</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

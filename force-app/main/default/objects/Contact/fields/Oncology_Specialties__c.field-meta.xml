@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oncology_Specialties__c</fullName>
+    <externalId>false</externalId>
+    <label>Specialty</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Adult Hem/Onc</fullName>
+                <default>false</default>
+                <label>Adult Hem/Onc</label>
+            </value>
+            <value>
+                <fullName>Anesthesiology</fullName>
+                <default>false</default>
+                <label>Anesthesiology</label>
+            </value>
+            <value>
+                <fullName>BMT</fullName>
+                <default>false</default>
+                <label>BMT</label>
+            </value>
+            <value>
+                <fullName>IM</fullName>
+                <default>false</default>
+                <label>IM</label>
+            </value>
+            <value>
+                <fullName>Neuro</fullName>
+                <default>false</default>
+                <label>Neuro</label>
+            </value>
+            <value>
+                <fullName>Neuro-Onc</fullName>
+                <default>false</default>
+                <label>Neuro-Onc</label>
+            </value>
+            <value>
+                <fullName>Neuro-Surg</fullName>
+                <default>false</default>
+                <label>Neuro-Surg</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pathology</fullName>
+                <default>false</default>
+                <label>Pathology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Hem/Onc</fullName>
+                <default>false</default>
+                <label>Pediatric Hem/Onc</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Radiology</fullName>
+                <default>false</default>
+                <label>Radiology</label>
+            </value>
+            <value>
+                <fullName>RadOnc</fullName>
+                <default>false</default>
+                <label>RadOnc</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Nephrologist</fullName>
+                <default>false</default>
+                <label>Nephrologist</label>
+            </value>
+            <value>
+                <fullName>Ophthalmologist</fullName>
+                <default>false</default>
+                <label>Ophthalmologist</label>
+            </value>
+            <value>
+                <fullName>Immunologist</fullName>
+                <default>false</default>
+                <label>Immunologist</label>
+            </value>
+            <value>
+                <fullName>CRS</fullName>
+                <default>false</default>
+                <label>CRS</label>
+            </value>
+            <value>
+                <fullName>GI</fullName>
+                <default>false</default>
+                <label>GI</label>
+            </value>
+            <value>
+                <fullName>HEM</fullName>
+                <default>false</default>
+                <label>HEM</label>
+            </value>
+            <value>
+                <fullName>HEM ONC</fullName>
+                <default>false</default>
+                <label>HEM ONC</label>
+            </value>
+            <value>
+                <fullName>ID</fullName>
+                <default>false</default>
+                <label>ID</label>
+            </value>
+            <value>
+                <fullName>IMU</fullName>
+                <default>false</default>
+                <label>IMU</label>
+            </value>
+            <value>
+                <fullName>NEPH</fullName>
+                <default>false</default>
+                <label>NEPH</label>
+            </value>
+            <value>
+                <fullName>ONC</fullName>
+                <default>false</default>
+                <label>ONC</label>
+            </value>
+            <value>
+                <fullName>PED</fullName>
+                <default>false</default>
+                <label>PED</label>
+            </value>
+            <value>
+                <fullName>PED GI</fullName>
+                <default>false</default>
+                <label>PED GI</label>
+            </value>
+            <value>
+                <fullName>PED HEM</fullName>
+                <default>false</default>
+                <label>PED HEM</label>
+            </value>
+            <value>
+                <fullName>PED HEM /ONC</fullName>
+                <default>false</default>
+                <label>PED HEM /ONC</label>
+            </value>
+            <value>
+                <fullName>PED METAB</fullName>
+                <default>false</default>
+                <label>PED METAB</label>
+            </value>
+            <value>
+                <fullName>PED NEPH</fullName>
+                <default>false</default>
+                <label>PED NEPH</label>
+            </value>
+            <value>
+                <fullName>PED ONC</fullName>
+                <default>false</default>
+                <label>PED ONC</label>
+            </value>
+            <value>
+                <fullName>ID/ Microbiology</fullName>
+                <default>false</default>
+                <label>ID/ Microbiology</label>
+            </value>
+            <value>
+                <fullName>Gastro-enterology</fullName>
+                <default>false</default>
+                <label>Gastro-enterology</label>
+            </value>
+            <value>
+                <fullName>Hemato-Oncology</fullName>
+                <default>false</default>
+                <label>Hemato-Oncology</label>
+            </value>
+            <value>
+                <fullName>IPS  ( Practitioner nurse)</fullName>
+                <default>false</default>
+                <label>IPS  ( Practitioner nurse)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

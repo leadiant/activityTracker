@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ONC_Type_Call__c</fullName>
+    <externalId>false</externalId>
+    <label>Type Call</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Branded</fullName>
+                <default>false</default>
+                <label>Branded</label>
+            </value>
+            <value>
+                <fullName>Disease Awareness</fullName>
+                <default>false</default>
+                <label>Disease Awareness</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<aura:component >
+    <aura:attribute name="productValue" type="String" />
+    <aura:attribute name="productOptions" type="List" />
+    <aura:attribute name="cssClass" type="String" description="A CSS class that will be applied to the outer element. This style is in addition to base classes associated with the component" />
+
+    <aura:attribute name="selectedContact" type="Contact" />
+    <force:recordData aura:id="contactRecordLoader" fields="Active_Product__c" targetRecord="{!v.selectedContact}" recordUpdated="{!c.handleContactRecordLoaded}" />
+
+    <aura:method name="populateContactProducts" action="{!c.populateValues}">
+        <aura:attribute name="contactId" type="String" />
+    </aura:method>
+
+
+    <lightning:select class="slds-size_1-of-2" name="select" required="true" label="Product:" aura:id="select" value="{!v.productValue}"
+     messageWhenValueMissing="Product is not assigned to contact">
+        <aura:iteration items="{!v.productOptions}" var="item">
+            <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" />
+        </aura:iteration>
+    </lightning:select>
+
+
+</aura:component>

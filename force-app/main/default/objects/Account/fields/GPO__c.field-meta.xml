@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPO__c</fullName>
+    <description>Group purchasing organization</description>
+    <externalId>false</externalId>
+    <label>GPO</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>GPO</valueSetName>
+    </valueSet>
+</CustomField>

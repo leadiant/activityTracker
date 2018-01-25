@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AMERISOURCEBERGEN</fullName>
+        <default>false</default>
+        <label>AMERISOURCEBERGEN</label>
+    </customValue>
+    <customValue>
+        <fullName>ASD</fullName>
+        <default>false</default>
+        <label>ASD</label>
+    </customValue>
+    <customValue>
+        <fullName>CARDINAL</fullName>
+        <default>false</default>
+        <label>CARDINAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CARDINAL PR</fullName>
+        <default>false</default>
+        <label>CARDINAL PR</label>
+    </customValue>
+    <customValue>
+        <fullName>CESAR CASTILLO</fullName>
+        <default>false</default>
+        <label>CESAR CASTILLO</label>
+    </customValue>
+    <customValue>
+        <fullName>DAKOTA DRUG</fullName>
+        <default>false</default>
+        <label>DAKOTA DRUG</label>
+    </customValue>
+    <customValue>
+        <fullName>DROGUERIA BETANCES</fullName>
+        <default>false</default>
+        <label>DROGUERIA BETANCES</label>
+    </customValue>
+    <customValue>
+        <fullName>H C PHARMACY</fullName>
+        <default>false</default>
+        <label>H C PHARMACY</label>
+    </customValue>
+    <customValue>
+        <fullName>H D SMITH</fullName>
+        <default>false</default>
+        <label>H D SMITH</label>
+    </customValue>
+    <customValue>
+        <fullName>KINRAY  LLC</fullName>
+        <default>false</default>
+        <label>KINRAY  LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>MCKESSON</fullName>
+        <default>false</default>
+        <label>MCKESSON</label>
+    </customValue>
+    <customValue>
+        <fullName>MCKESSON SPECIALTY</fullName>
+        <default>false</default>
+        <label>MCKESSON SPECIALTY</label>
+    </customValue>
+    <customValue>
+        <fullName>METRO MEDICAL</fullName>
+        <default>false</default>
+        <label>METRO MEDICAL</label>
+    </customValue>
+    <customValue>
+        <fullName>MORRIS &amp; DICKSON</fullName>
+        <default>false</default>
+        <label>MORRIS &amp; DICKSON</label>
+    </customValue>
+    <customValue>
+        <fullName>NC MUTUAL</fullName>
+        <default>false</default>
+        <label>NC MUTUAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ROCHESTER DRUG</fullName>
+        <default>false</default>
+        <label>ROCHESTER DRUG</label>
+    </customValue>
+    <customValue>
+        <fullName>SMITH DRUG</fullName>
+        <default>false</default>
+        <label>SMITH DRUG</label>
+    </customValue>
+    <customValue>
+        <fullName>VALUE DRUG</fullName>
+        <default>false</default>
+        <label>VALUE DRUG</label>
+    </customValue>
+    <description>Wholesaler</description>
+    <masterLabel>Wholesaler</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

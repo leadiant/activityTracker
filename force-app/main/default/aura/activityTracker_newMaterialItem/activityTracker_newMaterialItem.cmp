@@ -1,0 +1,54 @@
+<aura:component >
+    
+    <aura:attribute name="sourceTypes" type="List" />
+    <aura:attribute name="educationalItems" type="List" />
+    <aura:attribute name="marketingMaterials" type="ONC_Marketing_Material__c[]" />
+    <aura:attribute access="public" name="isValid" type="Boolean" default="false" />
+    
+    <c:marketingMaterialDataService aura:id="marketingMaterialService" />
+    
+    <aura:attribute name="materialItem" type="Material_Items__c" default="{ 'sobjectType': 'Material_Items__c',
+                         'Name': '',
+                  		 'Item__c':'', 
+                  		 'Item_Description__c':'',
+                         'Contact__c': '', 
+                         'Date_Provided__c': '',
+                         'Quantity__c': 1,
+                         'Amount__c': 0,
+                         'Source_Type__c':'',
+                         'Active_Product__c':'' 
+                       }" />
+                       
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <lightning:select name="sourceTypeSelect" label="Source Type:" aura:id="sourceTypeSelect" onchange="{!c.handleSourceTypeChange}" value="{!v.materialItem.Source_Type__c}">
+        <aura:iteration items="{!v.sourceTypes}" var="item">
+            <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" disabled="{!item.disabled}" />
+        </aura:iteration>
+    </lightning:select>
+
+    <aura:if isTrue="{!equals(v.materialItem.Source_Type__c,'Educational item')}">
+        <lightning:select name="educationalItemSelect" label="Item:" aura:id="educationalItemSelect" required="true" messageWhenValueMissing="Choose one!" onchange="{!c.handleEducationalItemChange}" value="{!v.materialItem.Item__c}">
+            <aura:iteration items="{!v.educationalItems}" var="item">
+                <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" />
+            </aura:iteration>
+        </lightning:select>
+    </aura:if>
+
+    <lightning:input name="dateProvided" label="Date Provided:" aura:id="dateProvided" disabled="True" value="{!v.materialItem.Date_Provided__c}" />
+
+    <lightning:input type="number" required="true" 
+        aura:id="quantity" min="1" messageWhenRangeUnderflow="Quantity must be greater than 1" name="quantity" 
+        label="Quantity" value="{!v.materialItem.Quantity__c}" messageWhenValueMissing="Quantity is required!"
+        onchange="{!c.handleChangeEvent}" />
+
+    <lightning:input type="number" required="true" name="amount" min="0.1" step="any" 
+        messageWhenRangeUnderflow="Amount must be greater than zero" 
+        messageWhenValueMissing="Please specify the Meal Amount!"
+        aura:id="amount" label="Amount" formatter="currency" 
+        disabled="{!equals(v.sourceType,'Educational item') ? true : false}"
+        value="{!v.materialItem.Amount__c}" 
+        onchange="{!c.handleChangeEvent}" />
+
+</aura:component>

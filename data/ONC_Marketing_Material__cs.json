@@ -1,0 +1,158 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef1"
+            },
+            "Name": "ABL-175P",
+            "Active_Product__c": "Abelcet",
+            "Item_Cost__c": 3.33,
+            "Item_Description__c": "ABELCET SALES AID (US) (1 EA)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef2"
+            },
+            "Name": "ABL-177-1116",
+            "Active_Product__c": "Abelcet",
+            "Item_Cost__c": 3,
+            "Item_Description__c": "ABELCET FLYER FRONT/BACK WITH PI (1 EA)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef3"
+            },
+            "Name": "ABL-CA-175P",
+            "Active_Product__c": "Abelcet",
+            "Item_Cost__c": 10,
+            "Item_Description__c": "ABELCET SALES AID (CANADA) WITH MONOGRAM",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef4"
+            },
+            "Name": "CYS022",
+            "Active_Product__c": "Cystaran",
+            "Item_Cost__c": 0.2,
+            "Item_Description__c": "CYSTARAN FLYER - WALGREENS (09/16) (1 EA)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef5"
+            },
+            "Name": "CYS23",
+            "Active_Product__c": "Cystaran",
+            "Item_Cost__c": 0.2,
+            "Item_Description__c": "CYSTARAN FLYER - ORDER, STORE , USE (09/16)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef6"
+            },
+            "Name": "15-DEP-162",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 5,
+            "Item_Description__c": "DEPOCYT ONS WHITE PAPER (25/PK)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef7"
+            },
+            "Name": "15-DEP-163",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 5,
+            "Item_Description__c": "DEPOCYT ONS EDGE TEAR PAD (1 PAD)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef8"
+            },
+            "Name": "15-DEP-165",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 3,
+            "Item_Description__c": "DEPOCYT BROCHURE (25/PK)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef9"
+            },
+            "Name": "DEP09CANGARCIA",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 5,
+            "Item_Description__c": "GARCIA-MARCO REPRINT (10/PK)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef10"
+            },
+            "Name": "DEP1000021206",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 5,
+            "Item_Description__c": "CHAMBERLAIN-JAMA 1995 - PK (25/PK)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef11"
+            },
+            "Name": "DEP1000071206",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 5,
+            "Item_Description__c": "GLANTZ-JCO 1999-DEPOCYT V CYTARABINE (25/PK)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef12"
+            },
+            "Name": "DEP99CCRBLEYER",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 5,
+            "Item_Description__c": "BLEYER - CCR 1999 - INTRATHECAL DEPOCYT",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef13"
+            },
+            "Name": "DEPPI-I07021USF",
+            "Active_Product__c": "Depocyt",
+            "Item_Cost__c": 0.1,
+            "Item_Description__c": "DEPOCYT PI I-070-21-US-F (25/PK)",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "ONC_Marketing_Material__c",
+                "referenceId": "ONC_Marketing_Material__cRef14"
+            },
+            "Name": "CYS027",
+            "Active_Product__c": "Cystaran",
+            "Item_Cost__c": 3.34,
+            "Item_Description__c": "Cystaran Physcian Detail w/Pocket",
+            "Active__c": true
+        }
+    ]
+}

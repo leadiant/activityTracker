@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speaker_Expertise__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select one or more areas of expertise for this speaker</inlineHelpText>
+    <label>Speaker Expertise</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PEDS</fullName>
+                <default>false</default>
+                <label>PEDS</label>
+            </value>
+            <value>
+                <fullName>AYA</fullName>
+                <default>false</default>
+                <label>AYA</label>
+            </value>
+            <value>
+                <fullName>ADULT</fullName>
+                <default>false</default>
+                <label>ADULT</label>
+            </value>
+            <value>
+                <fullName>LM</fullName>
+                <default>false</default>
+                <label>LM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

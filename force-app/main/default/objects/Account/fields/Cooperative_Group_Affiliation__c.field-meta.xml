@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cooperative_Group_Affiliation__c</fullName>
+    <externalId>false</externalId>
+    <label>Cooperative Group Affiliation</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ECOG</fullName>
+                <default>false</default>
+                <label>ECOG</label>
+            </value>
+            <value>
+                <fullName>SWOG</fullName>
+                <default>false</default>
+                <label>SWOG</label>
+            </value>
+            <value>
+                <fullName>COG</fullName>
+                <default>false</default>
+                <label>COG</label>
+            </value>
+            <value>
+                <fullName>Alliance(CALGB,NCCTG,ACOSOG)</fullName>
+                <default>false</default>
+                <label>Alliance(CALGB,NCCTG,ACOSOG)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

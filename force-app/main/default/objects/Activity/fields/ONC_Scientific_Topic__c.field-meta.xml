@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ONC_Scientific_Topic__c</fullName>
+    <externalId>false</externalId>
+    <label>Scientific Topic</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LM</fullName>
+                <default>false</default>
+                <label>LM</label>
+            </value>
+            <value>
+                <fullName>Cystinosis</fullName>
+                <default>false</default>
+                <label>Cystinosis</label>
+            </value>
+            <value>
+                <fullName>ADA-SCID</fullName>
+                <default>false</default>
+                <label>ADA-SCID</label>
+            </value>
+            <value>
+                <fullName>Invasive Fungal Infections</fullName>
+                <default>false</default>
+                <label>Invasive Fungal Infections</label>
+            </value>
+            <value>
+                <fullName>Hodgkin’s Disease</fullName>
+                <default>false</default>
+                <label>Hodgkin’s Disease</label>
+            </value>
+            <value>
+                <fullName>Metabolic Disease</fullName>
+                <default>false</default>
+                <label>Metabolic Disease</label>
+            </value>
+            <value>
+                <fullName>ESRD</fullName>
+                <default>false</default>
+                <label>ESRD</label>
+            </value>
+            <value>
+                <fullName>Glioma</fullName>
+                <default>false</default>
+                <label>Glioma</label>
+            </value>
+            <value>
+                <fullName>ALL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ALL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

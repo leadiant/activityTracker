@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Branded</fullName>
+        <default>false</default>
+        <label>Branded</label>
+    </customValue>
+    <customValue>
+        <fullName>Disease Awareness</fullName>
+        <default>false</default>
+        <label>Disease Awareness</label>
+    </customValue>
+    <masterLabel>Type Call</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

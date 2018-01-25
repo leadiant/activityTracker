@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "ONC_Marketing_Material__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ONC_Marketing_Material__cs.json"
+        ]
+    }
+]

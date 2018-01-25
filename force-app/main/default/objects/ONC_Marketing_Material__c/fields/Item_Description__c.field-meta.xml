@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Description__c</fullName>
+    <description>Vertiba 5/27/14 - added for ONC Marketing Materials lookup</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the item description</inlineHelpText>
+    <label>Item Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

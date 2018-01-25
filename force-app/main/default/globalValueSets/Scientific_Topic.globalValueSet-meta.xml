@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>LM</fullName>
+        <default>false</default>
+        <label>LM</label>
+    </customValue>
+    <customValue>
+        <fullName>Cystinosis</fullName>
+        <default>false</default>
+        <label>Cystinosis</label>
+    </customValue>
+    <customValue>
+        <fullName>ADA-SCID</fullName>
+        <default>false</default>
+        <label>ADA-SCID</label>
+    </customValue>
+    <customValue>
+        <fullName>Invasive Fungal Infections</fullName>
+        <default>false</default>
+        <label>Invasive Fungal Infections</label>
+    </customValue>
+    <customValue>
+        <fullName>Hodgkin’s Disease</fullName>
+        <default>false</default>
+        <label>Hodgkin’s Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>Metabolic Disease</fullName>
+        <default>false</default>
+        <label>Metabolic Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>CKD</fullName>
+        <default>false</default>
+        <label>CKD</label>
+    </customValue>
+    <masterLabel>Scientific Topic</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

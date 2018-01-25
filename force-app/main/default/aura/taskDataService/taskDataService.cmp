@@ -1,0 +1,5 @@
+<aura:component controller="taskDataServiceApexController">
+    <aura:method name="getTaskPicklistValues" action="{!c.getValues}" >
+        <aura:attribute name="callback" type="function" />
+    </aura:method>
+</aura:component>

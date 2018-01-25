@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Depocyt</fullName>
+        <default>false</default>
+        <label>Depocyt</label>
+    </customValue>
+    <customValue>
+        <fullName>Cystaran</fullName>
+        <default>false</default>
+        <label>Cystaran</label>
+    </customValue>
+    <customValue>
+        <fullName>Abelcet</fullName>
+        <default>false</default>
+        <label>Abelcet</label>
+    </customValue>
+    <customValue>
+        <fullName>Matulane</fullName>
+        <default>false</default>
+        <label>Matulane</label>
+    </customValue>
+    <customValue>
+        <fullName>Adagen</fullName>
+        <default>false</default>
+        <label>Adagen</label>
+    </customValue>
+    <customValue>
+        <fullName>Carnitor</fullName>
+        <default>false</default>
+        <label>Carnitor</label>
+    </customValue>
+    <masterLabel>Products</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
