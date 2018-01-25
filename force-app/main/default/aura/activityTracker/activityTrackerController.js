@@ -97,7 +97,7 @@
     },
 
     handleClickSave: function (component, event, helper) {
-        var helper = this;
+       // var helper = this;
         var action = component.get("c.insertActivity");
 
         action.setParam("task", component.get("v.newTask"));
@@ -121,8 +121,10 @@
             }
             component.find("spinner").hide();
         });
-        component.find("spinner").show();
-        $A.enqueueAction(action);
+        if (helper.validate(component)) {
+            component.find("spinner").show();
+            $A.enqueueAction(action);
+        }
     },
 
 
@@ -133,7 +135,6 @@
 
         if (status === "Open") {
             component.set("v.newMaterialItems.length", 0);
-            //helper.reInitializeMaterialItems(component);;
         }
     },
 

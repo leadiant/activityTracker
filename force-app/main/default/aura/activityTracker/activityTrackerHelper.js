@@ -79,17 +79,10 @@
     validate: function (component, event, helper) {
         var newTask = component.get("v.newTask");
         var isValid = true;
-        //        var today = new Date();
-
-        //      var dateField = component.find("dueDate");
-        //    var dateValue = dateField.get("v.value");
-        //  var status = component.get("v.newTask.Status");
-
-
-        var today = new Date();
+        var today = new Date(new Date().setHours(0, 0, 0, 0));
         var activityDateParts = newTask.ActivityDate.split('-');
         var activitydate = new Date(activityDateParts[0], activityDateParts[1] - 1, activityDateParts[2]);
-
+        console.log("Activity Date" + activitydate);
         if ($A.util.isEmpty(newTask.ActivityDate)) {
             isValid = false;
             component.find("dueDate").showError("Please provide valid Due Date");
@@ -115,63 +108,5 @@
 
         return isValid;
     },
-
-    createActivity: function (component) {
-        var materialItems = component.get("v.materialItems");
-        var task = component.get("v.newTask");
-
-
-
-        var action = component.get("c.saveActivity");
-        action.setParams({
-            "task": task,
-            "materialItems": materialItems
-        });
-
-
-        var failureToastEvent = $A.get("e.force:showToast");
-        failureToastEvent.setParams({
-            "title": "Failed!",
-            "message": "There was a problem logging your Activity. Please contact HelpDesk.",
-            "type": "failure"
-        });
-
-
-        var toastEvent = $A.get("e.force:showToast");
-        toastEvent.setParams({
-            "title": "Success!",
-            "message": "Activity is logged!",
-            "type": "success"
-        });
-
-        var urlEvent = $A.get("e.force:navigateToURL");
-        urlEvent.setParams({
-            "url": "/" + task.WhoId
-        });
-
-        action.setCallback(this, function (response) {
-            var state = response.getState();
-            if (component.isValid() && state === "SUCCESS") {
-                toastEvent.fire();
-                urlEvent.fire();
-            } else {
-
-                var errors = response.getError();
-                if (errors) {
-                    if (errors[0] && errors[0].message) {
-
-                    }
-                }
-
-
-                failureToastEvent.fire();
-            }
-
-            component.find("spinner").hide();
-
-        });
-        component.find("spinner").show();
-        $A.enqueueAction(action);
-    }
 
 })

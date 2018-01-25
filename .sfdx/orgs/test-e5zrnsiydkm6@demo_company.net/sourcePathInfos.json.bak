@@ -169,11 +169,11 @@
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4604,
-            "modifiedTime": 1516918697109,
-            "changeTime": 1516918697109,
+            "size": 4573,
+            "modifiedTime": 1516918409072,
+            "changeTime": 1516918409072,
             "isWorkspace": false,
-            "contentHash": "17a82ca7e09d4887bc0b3e54672fa5fd3f0c3689"
+            "contentHash": "7a61aca3192112cef706ec978c37fdfbcfcd77aa"
         }
     ],
     [
