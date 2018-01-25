@@ -1,113 +1,141 @@
 ({
-    doInit: function(component, event, helper) {
-        var recordId = component.get("v.recordId");
-
-        if (recordId != undefined && recordId != null) {
-            console.log("recordId if" + recordId);
-            component.set("v.newTask.WhoId",recordId);
-            component.find("product").populateContactProducts(recordId);
-        }
-        
-        var today = new Date();
+    doInit: function (component, event, helper) {
         component.set("v.modal", component.find("newMaterialItemModal"));
-        component.set("v.newTask.ActivityDate", today.getFullYear() + "-" + ("0" + (today.getMonth() + 1)).slice(-2) + "-" + ("0" + today.getDate()).slice(-2));
-
-        var taskDataService = component.find("taskDataService");
-        taskDataService.getTaskPicklistValues($A.getCallback(function(error, data) {
-            component.set("v.taskPicklistValues", data);
-            component.set("v.marketingMaterials", data.marketingMaterials);
-
-        }));
+        helper.newTaskInstance(component);
+        helper.getOptions(component, event, helper);
     },
 
-    getContactProduct: function(component, event, helper) {
-        component.find("product").populateContactProducts(component.get("v.newTask.WhoId"));
-        
+
+    getContactInfo: function (component, event, helper) {
+
+        var contactId = component.get('v.newTask.WhoId');
+
+        if (!contactId) {
+            component.set('v.selectedAccountName', null);
+            component.set('v.productOptions', null);
+            component.set('v.newTask.Active_Product__c', null);
+            return;
+        }
+
+        var getRecordsAction = component.get('c.getContactDetails');
+
+        getRecordsAction.setParams({
+            jsonString: JSON.stringify({
+                contactId: contactId
+            })
+        });
+
+        getRecordsAction.setCallback(this, function (res) {
+            if (res.getState() === 'SUCCESS') {
+                var returnValue = JSON.parse(res.getReturnValue());
+
+                if (returnValue.isSuccess) {
+                    component.set('v.productOptions', returnValue.results.data);
+                    component.set('v.newTask.Active_Product__c', returnValue.results.data[0].value);
+                    component.set('v.newTask.WhatId', returnValue.results.accountId);
+                } else {
+                    component.find('toaster').show('Warning!', 'failure', returnValue.errMsg);
+                }
+            }
+
+        });
+
+        $A.enqueueAction(getRecordsAction);
     },
-    
-    handleClickOpenModal: function(component, event, helper) {
+
+    handleClickOpenModal: function (component, event, helper) {
         helper.newMaterialItemInstance(component);
+
         var newModalBody = [
             ["c:activityTracker_newMaterialItem", {
-                materialItem: component.getReference("v.materialItem")
+                newMaterialItem: component.getReference("v.newMaterialItem"),
+                sourceTypeOptions: component.getReference("v.sourceTypeOptions"),
+                marketingMaterials: component.getReference("v.marketingMaterials")
             }]
         ];
         helper.setModalBody(component, newModalBody);
     },
-    
-    handleCreateMaterialItem:function(component, event, helper) {
-       var materialItem = component.get("v.materialItem");
-        var materialItems = component.get("v.materialItems");
-       if(component.get("v.addMaterialItemComponent").get("v.isValid")){
-			 materialItems.push(materialItem);
-			 component.set("v.materialItems", materialItems);
-    	    component.get("v.modal").hide();
-       }
+
+    handleCreateMaterialItem: function (component, event, helper) {
+        var newMaterialItem = component.get("v.newMaterialItem");
+        var newMaterialItems = component.get("v.newMaterialItems");
+        component.get("v.addMaterialItemComponent").validate();
+        if (component.get("v.addMaterialItemComponent").get("v.isValid")) {
+            newMaterialItems.push(newMaterialItem);
+            component.set("v.newMaterialItems", newMaterialItems);
+            component.get("v.modal").hide();
+        }
     },
-    
-     handleClearClick: function(component, event, helper) {
+
+    handleClearClick: function (component, event, helper) {
         var index = event.getSource().get("v.value");
 
-        var materialItems = component.get("v.materialItems");
-        materialItems.splice(index, 1);
-        component.set("v.materialItems", materialItems);
+        var newMaterialItems = component.get("v.newMaterialItems");
+        newMaterialItems.splice(index, 1);
+        component.set("v.newMaterialItems", newMaterialItems);
     },
-    
-     handleClickCancel: function(component, event, helper) {
-        //reset form Elements
-/*        var items = component.get("v.materialItems");
 
-        component.set("v.newTask.WhoId", null);
-        component.set("v.selectedAccountName", null);
-        component.set("v.newTask.Active_Product__c", null);
+    handleClickCancel: function (component, event, helper) {
 
-        items.length = 0;
-        component.set("v.materialItems", items);
-  */      
-        
-     /*    var urlEvent = $A.get("e.force:navigateToURL");
-        urlEvent.setParams({
-          "url": "/one/one.app?Log_A_Call_v2"
-        });
-        urlEvent.fire();
-       */ 
-    //    window.location.href = "/one/one.app?Log_A_Call_v2";
-    
-		
-		if (component.get("v.recordId") != undefined && component.get("v.recordId") != null) {
-    		var urlEvent = $A.get("e.force:navigateToURL");
+        if (component.get("v.recordId") != undefined && component.get("v.recordId") != null) {
+            var urlEvent = $A.get("e.force:navigateToURL");
             urlEvent.setParams({
                 "url": "/" + component.get("v.recordId")
             });
             urlEvent.fire();
-     }else {
-             	var evt = $A.get("e.force:navigateToComponent");
-		evt.setParams({
-			componentDef : "c:activityTracker",
-			componentAttributes: {
-				//	recordId : component.get("v.recordId")
-			}
-		});
-		
-		evt.fire();
+        } else {
+            var evt = $A.get("e.force:navigateToComponent");
+            evt.setParams({
+                componentDef: "c:activityTracker",
+                componentAttributes: {}
+            });
 
-     }
-		
-		
-    },
-    
-     handleClickSave: function(component, event, helper) {
-        if (helper.validate(component)) {
-            helper.createActivity(component);
+            evt.fire();
         }
+
+
     },
-    
-    handleTaskStatusChange: function(component, event, helper) {
+
+    handleClickSave: function (component, event, helper) {
+        var helper = this;
+        var action = component.get("c.insertActivity");
+
+        action.setParam("task", component.get("v.newTask"));
+        action.setParam("materialItems", component.get("v.newMaterialItems"));
+        action.setCallback(this, function (response) {
+            var state = response.getState();
+            if (component.isValid() && state === "SUCCESS") {
+                var returnValue = JSON.parse(response.getReturnValue());
+                if (returnValue.isSuccess) {
+                    component.find('toaster').show('Success!', 'success', 'Activity is logged!');
+                    var urlEvent = $A.get("e.force:navigateToURL");
+                    urlEvent.setParams({
+                        "url": "/" + component.get("v.newTask.WhoId")
+                    });
+                    urlEvent.fire();
+                } else {
+                    component.find('toaster').show('Failed!', 'failure', 'There was a problem logging your Activity. Please contact HelpDesk.');
+                }
+            } else if (component.isValid() && state === "ERROR") {
+                component.find('toaster').show('Failed!', 'failure', 'There was a problem logging your Activity. Please contact HelpDesk.');
+            }
+            component.find("spinner").hide();
+        });
+        component.find("spinner").show();
+        $A.enqueueAction(action);
+    },
+
+
+
+    handleTaskStatusChange: function (component, event, helper) {
+        console.log('handleTaskStatusChange - entry');
         var status = component.get("v.newTask.Status");
+
         if (status === "Open") {
-            helper.reInitializeMaterialItems(component);;
+            component.set("v.newMaterialItems.length", 0);
+            //helper.reInitializeMaterialItems(component);;
         }
     },
-    
+
 
 })

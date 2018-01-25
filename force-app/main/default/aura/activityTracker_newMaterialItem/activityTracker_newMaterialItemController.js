@@ -1,46 +1,70 @@
 ({
-    doInit: function(component, event, helper) {
-        console.log("Do Init Called");
-        var marketingMaterialService = component.find("marketingMaterialService");
-        marketingMaterialService.getActiveMarketingMaterials($A.getCallback(function(error,data) {
-            console.log(data);
-            component.set("v.marketingMaterials", data);
-            console.log(component.get("v.marketingMaterials"));
-            if(helper.isMarketingMaterialAvilableForProduct(component)) {
-                helper.loadSourceTypeOptions(component);
-                helper.loadEductionalItems(component);
-            } else {
-                helper.loadMealSourceType(component);
-            }
-            
-             helper.validate(component);
-            
-        }));
+    doInit: function (component, event, helper) {
+        var product = component.get('v.newMaterialItem.Active_Product__c');
+        var marketingMaterials = component.get("v.marketingMaterials");
+
+        if (marketingMaterials.find(record => record.product === product) != undefined) {
+            component.set('v.marketingMaterialsOptions', marketingMaterials.find(record => record.product === product).values);
+            component.set('v.newMaterialItem.Source_Type__c', 'Educational item');
+        } else {
+            component.get("v.sourceTypeOptions").find(record => record.label === 'Educational item').disabled = true;
+            component.set('v.newMaterialItem.Source_Type__c', 'Meal');
+        }
+
     },
 
-    handleEducationalItemChange: function(component, event, helper) {
+
+    handleEducationalItemChange: function (component, event, helper) {
         helper.setItemAmountAndDescription(component);
     },
-    
-    handleChangeEvent : function (component, event, helper){
-        helper.validate(component);
-    },
-    
-     handleSourceTypeChange: function(component, event, helper) {
-        var sourceType = component.get("v.materialItem.sourceType");
 
+    handleSourceTypeChange: function (component, event, helper) {
+        var sourceType = component.get("v.newMaterialItem.Source_Type__c");
+        var marketingMaterialsOptions = component.get("v.marketingMaterialsOptions");
         if (sourceType === "Educational item") {
-            var educationalItems = component.get("v.educationalItems");
-            component.set("v.Item__c", educationalItems[0].value);
-            helper.setItemAmountAndDescription(component);
+            component.find("marketingMaterialsItemSelect").set("v.value", marketingMaterialsOptions[0].Id);
+        } else {
+            component.set('v.newMaterialItem.Amount__c', 0);
+            component.set('v.newMaterialItem.Quantity__c', 1);
+            component.set('v.newMaterialItem.Item__c', "");
+            component.set('v.newMaterialItem.Item_Description__c', "");
         }
-        else {
-            component.set('v.materialItem.Amount__c', 0);
-            component.set('v.materialItem.Quantity__c', 1);
-            component.set('v.materialItem.Item__c', "");
-            component.set('v.materialItem.Item_Description__c', "");
-        }
-        
-         helper.validate(component);
+
     },
+
+    validateNewMaterialItem: function (component) {
+        var isValid = true;
+        var newMaterialItem = component.get("v.newMaterialItem");
+
+        if (!newMaterialItem.Quantity__c || parseInt(newMaterialItem.Quantity__c) === 0) {
+            component.find("quantity").set('v.validity', {
+                valid: false,
+                valueMissing: true
+            });
+            component.find("quantity").showHelpMessageIfInvalid();
+            isValid = false;
+        } else {
+            component.find("quantity").set('v.validity', {
+                valid: true
+            });
+        }
+
+        if (newMaterialItem.Source_Type__c === "Meal" && (!newMaterialItem.Amount__c || parseInt(newMaterialItem.Amount__c) === 0)) {
+            component.find("amount").set('v.validity', {
+                valid: false,
+                valueMissing: true
+            });
+            component.find("amount").showHelpMessageIfInvalid();
+            isValid = false;
+        } else {
+            component.find("amount").set('v.validity', {
+                valid: true
+            });
+        }
+
+
+        component.set("v.isValid", isValid);
+
+    }
+
 })

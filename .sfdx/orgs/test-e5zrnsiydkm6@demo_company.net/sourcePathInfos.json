@@ -1,0 +1,3362 @@
+[
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463299,
+            "changeTime": 1516907463299,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463299,
+            "changeTime": 1516907463299,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "378837c1e75b51e5359bf69015fcc0291140d163",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\applications",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\applications",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "ac886554aea17adc0584d516b85c44e2abdd3f63",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\applications\\Rare_Disease_Sales.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\applications\\Rare_Disease_Sales.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 497,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "36ac2f8945f2875b778a131a221b3b31d5e48ec4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "93edb85d8ad92a20ab22d7d1652775769ee327e9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "fe187afbc3952d5db59a5016bcac6bfcd2c680e1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 11305,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "3dcb31072ac3b63ce9a159860bc7ba0cd520f8bc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "67ed1f5733b1ce65f40dc2cd4dc35a8bd63a6b3c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "579b87c7a919b954ff62f1f28c2b20be3610eace",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3879,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "9b54420a4513a3e760694f358d3ecf253d63d438",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4477,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "7f26c008506cb9a2fc01d9d9a4cc0bfbc7efeeef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 53,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "d77a898aed1dce81bd2d4527b33002f19e0c791b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "9579c5f955fc9ebcc89a9b54cdeb3f7794feb1c1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItem.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItem.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2984,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "bf086e5e343584d23af506ba294da4393a3c2e9a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItem.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItem.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItemController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItemController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1796,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "b17238d1b86343994b45288581cd8393a3fdfa11",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItemHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker_newMaterialItem\\activityTracker_newMaterialItemHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3828,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "bc27c4564f6ae767c53a445e5b323bc2c61ce4ff",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "750a3c36eb979d837a0fe5ad4dce7f122520e421",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn\\DataTableColumn.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn\\DataTableColumn.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 744,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "272ff295ba528d8ac21f27db9adb4327756ea09e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn\\DataTableColumn.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn\\DataTableColumn.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn\\DataTableColumnController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\DataTableColumn\\DataTableColumnController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "0977288192410cc84fe60fcce4d02602c74318f6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "9c13df0e131455c056bf7320226e1f7b5dfc93ce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 937,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "2f0157d47ad00ec4570e364ace7232f419665502",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463346,
+            "changeTime": 1516907463346,
+            "contentHash": "6f3ff82e278723f090d03887384f13b45f83e982",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "89fd0960fee985ed9abaf3f003f2dde1e0944a16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickAction.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickAction.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 176,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "505863d68d97aa7c3a645f9d7c1709240a88dd37",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickAction.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickAction.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "7a2ed7f70ffedea98efcd3a83042bcb89b27ee2f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickActionController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickActionController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 269,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "a8de3c56893ec7aa5731ba4ead4220fa6e8b0732",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickActionHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\logACall_QuickAction\\logACall_QuickActionHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 44,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "d0b817b1ed38bbf663e8e0e2f23331837cfca3a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "44d213ee03d9f07c437c4f057a8e0976e7386882",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService\\marketingMaterialDataService.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService\\marketingMaterialDataService.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 257,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "8248995e5f827d6256ee575749d65798b29aef14",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService\\marketingMaterialDataService.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService\\marketingMaterialDataService.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService\\marketingMaterialDataServiceController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\marketingMaterialDataService\\marketingMaterialDataServiceController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 557,
+            "modifiedTime": 1516907463362,
+            "changeTime": 1516907463362,
+            "contentHash": "f16a474646cfbf43a8c4b50aec60093c3e5c3788",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "053e83a13c6c43d66d86a5add5c0eab75df280ba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\product.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\product.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1163,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "d5cb6c99a48256af86ddc1f66f7f7e958ba89718",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\product.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\product.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\productController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\productController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1650,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "f2ce60b00e48a6b26df965bad04a6de01bf7d100",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\productHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\product\\productHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 396,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "5666cdcb198f51552730ce48ce54ef1e96b71953",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "37ebaf01e064fe8625ce0e9ea1aa05772178dadc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner\\Spinner.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner\\Spinner.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 523,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "145339804c05db48932192b36caad70ad37f46ca",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner\\Spinner.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner\\Spinner.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463315,
+            "changeTime": 1516907463315,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner\\SpinnerController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\Spinner\\SpinnerController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 624,
+            "modifiedTime": 1516907463330,
+            "changeTime": 1516907463330,
+            "contentHash": "806c6e76739678525d3f7a0b03440afedc7e35e7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "2f6a5621fa319d035ad1cabd4066c100d23e6842",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9760,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "d17a6ca82150934e1fdefa55ff98edbc9518522c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463377,
+            "changeTime": 1516907463377,
+            "contentHash": "6f3ff82e278723f090d03887384f13b45f83e982",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4108,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "11d46a99a3cc863a68af6db4abf602bd38b2e933",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7761,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "f48e9f7c56148f0fd1a63ff58eb1a6d38b58e54e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 12918,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "5067011a429fa8da5c4ff4234b72ca01cc9840b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 154,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "85be2053c34c3dbc0b36e100933ad51afc5350ce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "577ad48e6b8ae8c07687836d4528eac5a9d11f49",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 120,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "a64a7f916d3f4bee8eca1c6e0d7042e7ac42b01a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 215,
+            "modifiedTime": 1516907463393,
+            "changeTime": 1516907463393,
+            "contentHash": "cf1daa0b76f9aad7298b32b37f24adbbd073f869",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "b3b563642ea8e2946cc3b5d249aad6560f2af890",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9983,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "8bdee0d815f428695ece7c09908b1bc253e640c9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 248,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "e9db94433189c82a1c435bf4ddcf264076533615",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 359,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "293184e3d91dc46873560664d05cb67d95281e5c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.svg",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.svg",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 212,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "2d1390d27dbe73c57fe4cdd943927ac4354fd53b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2930,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "135a3c892ca32088ea5f2eba766ed2e01cb73ae0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 733,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "189dd5ff37abc1244c289fa36aee7ac501d37987",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "0d23c5de0d31538a84ed3fb2a024ec9a7acc192c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.auradoc",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 214,
+            "modifiedTime": 1516907463409,
+            "changeTime": 1516907463409,
+            "contentHash": "407a14e54b2a31f34bdc3d6864f898b846cd6f14",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 14908,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "aa457b3ed4986dd9293b1f3a14c2dd05f63a8dc5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "6f3ff82e278723f090d03887384f13b45f83e982",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5327,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "e33f36de2215960958ae1ffafefb2675caf6a67d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7621,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "134ae4add5f5984f3f5d2e9d51308504b7cee5da",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10360,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "352d1b4ed162985e63b509aeedc88dff1b1966ba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 152,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "9a3fdbc9e8ced25108029ed612af1e35c803e78c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "e42dd8f95e99f5fc121a31572066251ae76569a1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3710,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "4879b00cad8a06008945afe18b1e2d6b32a8fd2c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463424,
+            "changeTime": 1516907463424,
+            "contentHash": "6f3ff82e278723f090d03887384f13b45f83e982",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1464,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "c205750c215fe8383e7ab1c962b64b3b3896d8f8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2162,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "e25f893e9f2aed17f426499956613643d5a772c7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 150,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "5ade128bbfa53f697c93ac63a041704755975d28",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "07facf06cd694dae7c901f2f6d5003aa13cdae9f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.auradoc",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 214,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "407a14e54b2a31f34bdc3d6864f898b846cd6f14",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 8459,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "28d2d950f1148a557c10a060cb5a218cc000b2a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 231,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "c391fcf4df3757d58d6fffe90cc3913eb8622a09",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1889,
+            "modifiedTime": 1516907463440,
+            "changeTime": 1516907463440,
+            "contentHash": "86b5f20ec3781b7a03fed12a9fedf0f9f9659ad1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4198,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "4112bb4026bb30c9a863b07426807244b580a782",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 12268,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "8d3ea340c5078d31d88e0f930cc150b8855aaf46",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 150,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "aebd957649521732bd1c58b12ba87b802b4b4b44",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "809f6c02db5f8dd1f2dfa1418320bf0a3bce7e35",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2670,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "eb8c767900ff96f125315d6fc00223e674464642",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 218,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "26f3e483338a1994280ae6d8eb69b07f4dcf6c08",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 391,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "617353a343006874399a193e9f802d335b83940a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1764,
+            "modifiedTime": 1516907463455,
+            "changeTime": 1516907463455,
+            "contentHash": "09db1b779fb568729e22d9dd3a6d46eac29d8329",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 564,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "ab019e74841dbc0332e10d9321d4721570135205",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "66bc6d13177f040ff7a8395ae58028ba16868ca6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5201,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "2e94f777be64be054c2c75959e083cb7ac103bbd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "5ba5bbd8ed8115d18d4930c432ac893fbb9d17d0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 270,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "07b301cfeff481c1c0eb5c719ae3731dcd1c1ab7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 434,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "bad8c805be4f02d451f667653ac927720868fd5d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 208,
+            "modifiedTime": 1516907463471,
+            "changeTime": 1516907463471,
+            "contentHash": "302b4518f9885a626f8c36699de4dbc5d50f1167",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "6cfebd237963e137e8e9d2029428b2bed866c873",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 488,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "a3e593a14a3ba406bb9217f93b57c7f9fe1d546f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 215,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "10af405a9e333ce147c91347e053dd8af6d9f403",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svgRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svgRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1169,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "0688541da0018537f2196d5c1f9fa11361364db9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "3436907144c360261f90944ac252dad407c01f6a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1381,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "2d26e8cc78df7b8d1d639bc771482a8f97fd4821",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "6f3ff82e278723f090d03887384f13b45f83e982",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 379,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "0a52d5fb6afef20842b1a60825a9340d89206f74",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 948,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "7a8e11c02fc8f02fa5fe42488459230864225973",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4269,
+            "modifiedTime": 1516907463487,
+            "changeTime": 1516907463487,
+            "contentHash": "28fa99835655c2fc1c4b068b19873f0608e5f0fb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "72fb9ae5a6653585b393d4e795437c20ed75c6e9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService\\taskDataService.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService\\taskDataService.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 231,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "a507c8b10b1c5c9ac7fba28cf8f3b95add9ce90e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService\\taskDataService.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService\\taskDataService.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService\\taskDataServiceController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\taskDataService\\taskDataServiceController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 510,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "15533223036fa33753d17afb99924f940fcc62af",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "c4cca5fbe964c23dad0558f870a8430e0aa83d6b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster\\toaster.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster\\toaster.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 343,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "06e79fc3a3573b6f50861ed0978273b1b45d7444",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster\\toaster.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster\\toaster.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 216,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "d3be52c38caf790760a95af23aa5a25790375bd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster\\toasterController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\toaster\\toasterController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 357,
+            "modifiedTime": 1516907463502,
+            "changeTime": 1516907463502,
+            "contentHash": "b04427f4836dbb568492e36cdb4f17ef94d25efe",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "0178514aa24366b4ced92799505bc500c23f1543",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 764,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "0bd848f6ec130874c066355d6b1b39b0a2753bef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "0d221f8a056acfcadca290ea2b5d1d6f91eb8ad2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\mrktngMtrlDataSrvApexController.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\mrktngMtrlDataSrvApexController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 369,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "99c7c3a881a2fac6c48b09eb9b624823583fd44b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\mrktngMtrlDataSrvApexController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\mrktngMtrlDataSrvApexController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "0d221f8a056acfcadca290ea2b5d1d6f91eb8ad2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 8965,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "a1a0e1ca79c3a2d280c08f763151b6e5f289afb0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "36653e7488879c0ed6d7bd08805295fa678ca822",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 504,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "3763c9cfef19351ff816fbd9bf7bf8fb4136a3da",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1516907463518,
+            "changeTime": 1516907463518,
+            "contentHash": "36653e7488879c0ed6d7bd08805295fa678ca822",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 734,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "216609366453fb8ac7ca5dd819f5645f9c93a425",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "36653e7488879c0ed6d7bd08805295fa678ca822",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\taskDataServiceApexController.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\taskDataServiceApexController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2770,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "c752438eb369892ca33294c246076728b44d6a4e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\taskDataServiceApexController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\taskDataServiceApexController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "0d221f8a056acfcadca290ea2b5d1d6f91eb8ad2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "7fd7ea7b34a7f677dfa33363738215021093d0fb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3621,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "276f6e6e6676e8554863e9503ff375d05afea0c5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Contact_Lightning_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Contact_Lightning_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3624,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "583137215b18215cebf2f09089336d6a8ef2d517",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Material_Item_Record_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Material_Item_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2263,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "2843e427a8c4bc6bd576f2762e8922c76e4c6ce2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Rare_Disease_Sales_UtilityBar.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\flexipages\\Rare_Disease_Sales_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 404,
+            "modifiedTime": 1516907463534,
+            "changeTime": 1516907463534,
+            "contentHash": "14fc9f62a113bf64d7b8cb9408c8a79e58064d01",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "75d1ba2c2bd37c36138dbc9362945a52992dc93d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Active_Products.globalValueSet-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Active_Products.globalValueSet-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1056,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "ae2a26d26ddaecf9a4ecc67acfc84f7b017cab99",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\GPO.globalValueSet-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\GPO.globalValueSet-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3066,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "5c8dbbbc974a70518f05fca5386ffcf2bf5b1724",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Scientific_Topic.globalValueSet-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Scientific_Topic.globalValueSet-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1275,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "511e2fab45a75764f3572d7301d3782c3024ecb7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Type_Call.globalValueSet-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Type_Call.globalValueSet-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 501,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "7d1fae50e19abb0777e561531f4adbefcf7a9d4a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Wholesaler.globalValueSet-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\globalValueSets\\Wholesaler.globalValueSet-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2993,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "df4ffcb3f8cb3743076f4dc8490abe9e4000f023",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "8861dcdd1b93c318e5aa7ec67bb710d873e56f03",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Account-Rare Disease Sales Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Account-Rare Disease Sales Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8537,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "0720de634711a4f7ec32ab7faa55f312afc40ac4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Contact-Rare Disease Contact Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Contact-Rare Disease Contact Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9053,
+            "modifiedTime": 1516907463549,
+            "changeTime": 1516907463549,
+            "contentHash": "622630b6e9090ab460971121438fd192d5fc5a8f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Material_Items__c-Material Item Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Material_Items__c-Material Item Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4330,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "b50d1545b9ff6e18a82d8f03544e1d9ef1c45757",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Material_Items__c-Material Item Rx Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\Material_Items__c-Material Item Rx Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3736,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "bc96e971c28499c022974aca8c549f2237c40638",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\ONC_Marketing_Material__c-ONC Marketing Material Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\layouts\\ONC_Marketing_Material__c-ONC Marketing Material Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3595,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "16b15e0f577864fe62f6c37ef67c48dcb17f0476",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "d0e3384763b11ee4ebae03fe6bbc803221e34e86",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "000724b417040bfe1652fe6164be4045b1f31b93",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 105,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "9884171c7907d10413a021f099cf1c0b5c2c150f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\compactLayouts",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\compactLayouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "f37806ff99b679196a9a5a6361844c69de2b421f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\compactLayouts\\Account_Compact_Layout.compactLayout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\compactLayouts\\Account_Compact_Layout.compactLayout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 402,
+            "modifiedTime": 1516907463565,
+            "changeTime": 1516907463565,
+            "contentHash": "cc200ad6dc6124f199b3241c6be8f7251b98c4e6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "c1721db7812175094c870dae01c3dfd83e03a7d4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\Cooperative_Group_Affiliation__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\Cooperative_Group_Affiliation__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1159,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "af613d2ff0771a4614358eb941c3c08f886f4296",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\CP_Account_ID__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\CP_Account_ID__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "1db6f60ac58ebf7dd42b20b10fe9f5457f6cd45d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\GPO__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\GPO__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 447,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "19e0347f6bcaa6aacb0cdf2a10600010513cee3f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\Teaching_Hospital__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\Teaching_Hospital__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 309,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "fb46b2e1e78cf325ae7768576ef4ee9c54ed903b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\Wholesaler__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Account\\fields\\Wholesaler__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 449,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "9bcc7f75b8e11e1457129e47316529a1c5de2087",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "d45e6a09cf60fd573320ef89e409091270b68861",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\Activity.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\Activity.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 105,
+            "modifiedTime": 1516907463580,
+            "changeTime": 1516907463580,
+            "contentHash": "9884171c7907d10413a021f099cf1c0b5c2c150f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "f9f66c3e901f7ed5c3a713c6371a0a08ca4437d4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Active_Product__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Active_Product__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 412,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "4fbcac752f2de824c94146d41189536c75bfa08f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Call_Type__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Call_Type__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 993,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "76e0300827cf5a563e1548a7aed70ee2d57b7f11",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\CP_Activity_ID__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\CP_Activity_ID__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 341,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "6d019e4c927e9323892757ffa2fbcd2f321c9a1a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Old_Activity_Id__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Old_Activity_Id__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 344,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "52c9cb4d5d6123691f01f7a6059bcd83053a7e34",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\ONC_Scientific_Topic__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\ONC_Scientific_Topic__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2164,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "5c07199e8fa47b72daa4a99ce38a5159ebf7bfd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\ONC_Type_Call__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\ONC_Type_Call__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 818,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "3e057d175b5e0120fb4a0dcf4abebdf13256d15d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Task_Subject__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Activity\\fields\\Task_Subject__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1375,
+            "modifiedTime": 1516907463596,
+            "changeTime": 1516907463596,
+            "contentHash": "68bb4bd5932742821edf5b36773011943aea02d4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "f8d3786160ee83e086d9e4970a8f3b304e0ac3cc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\Contact.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\Contact.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 105,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "9884171c7907d10413a021f099cf1c0b5c2c150f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "c2ed0e94895ccb908ca758d6b1a1ea4551a5ea04",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Active_Product__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Active_Product__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 459,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "b6f293d001c50b5541e932ab4dd7923904d88420",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Contract_End_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Contract_End_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 353,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "080bb3b028a3e5b68001a13537a74df1aa6c4b93",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Contract_Expiration__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Contract_Expiration__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 299,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "267a99c40a6d4ba46094ca095210406d35cba517",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Contract_Start_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Contract_Start_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 359,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "faf1cce6a9da2dc9bb8bb347d9a97fa4a2e7bc31",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\CP_Contact_ID__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\CP_Contact_ID__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "5d843c9ffdb9130f9d494c2e6ebff4da4708cd90",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Full_Name__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Full_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 430,
+            "modifiedTime": 1516907463612,
+            "changeTime": 1516907463612,
+            "contentHash": "712b86e9a384b1f8800015a4ecbe4f772ed9bcfc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Is_Prescriber__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Is_Prescriber__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 299,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "fb79963e3f711b0d1532a74c1e2acef1d93185af",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Key_Advocate__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Key_Advocate__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 395,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "ae4cc950ac792235ce69caa6a3ee5b1aa81f39e2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\KOL_box__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\KOL_box__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 363,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "e06fee9da037154681f32034462650dd5f67b9dc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\KOL_Speaker__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\KOL_Speaker__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 505,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "db2f56c2cdbd356ea612b95bca3d4aba24c4a677",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Middle_Name__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Middle_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 336,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "97772f1fdc07a12b77e3324662a6edf016f54c12",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\NPI_Lookup__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\NPI_Lookup__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 565,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "d51b526d72f3e8beecb12fba11640e4e54727292",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\NPI_Number__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\NPI_Number__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 333,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "c40e374f886b147cbcfffbc7d383054b7a81b8a8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Oncology_Professional_Designation__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Oncology_Professional_Designation__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3225,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "36451b582e2c789f60d98c78afbf4ede527b3560",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Oncology_Specialties__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Oncology_Specialties__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7056,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "502f2af20d79816f44f1d0c5246deec8b9e4e8f9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\ONC_Specialty_Prime__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\ONC_Specialty_Prime__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3347,
+            "modifiedTime": 1516907463627,
+            "changeTime": 1516907463627,
+            "contentHash": "6254b38991c2d92fde48558dae3b878cc65eccd1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Product_Type__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Product_Type__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 771,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "bd75af8315ffaf88c2f05fa67dc6f11828f617fc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Speaker_Expertise__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Speaker_Expertise__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1225,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "60a908cd413a8808066c739f6a4456ba89e88fe2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Speaker_Oncology__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Speaker_Oncology__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 296,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "53ba2f7d014a9da1d3cf0987f2c8d4b087c7589d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Speaker_Training_Completed__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Speaker_Training_Completed__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 771,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "f5fc3f3ac6016e938baa0ee3bcc1517eec119359",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\State_Medical_License_No__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\State_Medical_License_No__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 362,
+            "modifiedTime": 1516907463643,
+            "changeTime": 1516907463643,
+            "contentHash": "180500dac2e7b9c2ba6dc82701e355ceb829f1a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Stay_In_Front_Speciality__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Stay_In_Front_Speciality__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 360,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "93c4e2ea439f6c2b7ed13a9c72697dd614ce6e29",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Tier__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\fields\\Tier__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1099,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "5206042b2bc3c9c04e62b990c3560a1efbce849f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\recordTypes",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\recordTypes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "c820e845b228d784658893244d83680fd786fe59",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\recordTypes\\Rare_Disease_Contact.recordType-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\recordTypes\\Rare_Disease_Contact.recordType-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 10345,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "1c8349db0df6c989bffec227c9596c2a45e9b990",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\recordTypes\\Speaker.recordType-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Contact\\recordTypes\\Speaker.recordType-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 11390,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "4ded5b4f5b207692ad41dc3996cbb7a0b04895df",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "1ab1dbdf23bf4ea9a52a57bdeedeaaf801ab7e76",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "a6d4640dbe71ec15ae0c11a20c9885c2bbdea8e9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Active_Product__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Active_Product__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 494,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "dee7adecdef327db956ffb93c3d265144fccee83",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Amount__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Amount__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 664,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "73852b58521ffb1e2f07475a6e59ad1a97113b70",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Contact__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Contact__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1086,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "90b11973edaad95e02793f30cbfe77be8d83f18e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Date_Provided__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Date_Provided__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 638,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "7067aa78878452581497c7a01576124a58aae41d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Group_Event__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Group_Event__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 805,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "d0ab9560d23a3e6ad586ada043bf31ab8346d683",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Item_Description__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Item_Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 517,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "f75c9cb16a541d2417ddd5193ff13d6a790a23d4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Item__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Item__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 689,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "3d11c3f81dc39f5dad871b2aa9bf360ecb55a82f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Old_Material_Items__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Old_Material_Items__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 432,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "cafa8a568fde9297fdfc592b8677998154b0b1f9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Quantity__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Quantity__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 839,
+            "modifiedTime": 1516907463674,
+            "changeTime": 1516907463674,
+            "contentHash": "9a6e0d2446d7cd4fdc088dca352e995ba6d04a03",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Source_Type__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Source_Type__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1023,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "c14d2eaeece48bf008612c492cd3b677de633b64",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Task_Id_Ref__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Task_Id_Ref__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 418,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "4fd0e6ac334e94267dc52d643b851f48f4f0783a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Total_Amount__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\fields\\Total_Amount__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 535,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "0b3627405149a34a54637994db64c06a6a77de57",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\listViews",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 542,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "4302277b405b0e2aba73ba0b9e0e391de76e721a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\Material_Items__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\Material_Items__c\\Material_Items__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3045,
+            "modifiedTime": 1516907463659,
+            "changeTime": 1516907463659,
+            "contentHash": "3573eadd61efaeb7c2b88cc47369a2c9c234c29e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "ab2abdc78cbef62cb41fc683de8fc1d17c6a892a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "b43e296071ff10b8f690130f1d01a7f92013e784",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Active_Product__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Active_Product__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 494,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "dee7adecdef327db956ffb93c3d265144fccee83",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Active__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Active__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 448,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "21e019f5b0266a96046c534f163587818e9ad343",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Item_Cost__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Item_Cost__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 646,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "c0639967c374739e69f92aae4d87a7deb4e6cc67",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Item_Description__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Item_Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 585,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "02c609f8b480ddd441e68cf5d97c2718ab221349",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Old_Item_Id__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\fields\\Old_Item_Id__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 418,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "4f456d4b559fca21c138e0b702a274ea24f26ab1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\ONC_Marketing_Material__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\objects\\ONC_Marketing_Material__c\\ONC_Marketing_Material__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2535,
+            "modifiedTime": 1516907463690,
+            "changeTime": 1516907463690,
+            "contentHash": "aafe07e05b7a634c7ae8063ac88d15d0b6e1a756",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "3742e0d5d20ab31a6204158ffa19cf821ceb63f1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\permissionsets\\activityTrackerPermissionSet.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\permissionsets\\activityTrackerPermissionSet.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7633,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "7a59ab63b1c961b1ff869ed37b783748d65e90a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\quickActions",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\quickActions",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "24c639edda1880eb3c58402c3c32a7fce4c40005",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\quickActions\\Contact.Log_A_Call.quickAction-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\quickActions\\Contact.Log_A_Call.quickAction-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 361,
+            "modifiedTime": 1516907463705,
+            "changeTime": 1516907463705,
+            "contentHash": "072df80e4ad08d046c98380aa968258389f922d1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\tabs",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463721,
+            "changeTime": 1516907463721,
+            "contentHash": "e7ee85722c677b4284ebb2d71530962bfd4f6a1d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\tabs\\Log_A_Call.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\tabs\\Log_A_Call.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 281,
+            "modifiedTime": 1516907463721,
+            "changeTime": 1516907463721,
+            "contentHash": "815bbef6dfdeff65add1fead5572a9a47c4c89d4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516907463721,
+            "changeTime": 1516907463721,
+            "contentHash": "4a73e8ffb7ba37e044c1e837bf5fcc55e61ae4e3",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
