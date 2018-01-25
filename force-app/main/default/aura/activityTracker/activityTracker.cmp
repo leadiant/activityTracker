@@ -90,140 +90,139 @@
 				<div class="slds-form-element__group">
 					<div class="slds-form-element__row">
 						<lightning:select name="statusSelect" label="Status:" required="true" class="slds-size_1-of-2" aura:id="statusSelect" value="{!v.newTask.Status}"
-						    onchange="{!c.handleTaskStatusChange}>
-                            <aura:iteration items=" {!v.statusOptions} " var="item ">
-									<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        
-                        <lightning:select name="subjectSelect " class="slds-size_1-of-2 " label="Subject: " 
-                                          required="true " aura:id="subjectSelect " value="{!v.newTask.Subject} ">
-                            <aura:iteration items="{!v.subjectOptions} " var="item ">
-									<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
-                            </aura:iteration>
-                        </lightning:select>
-                    </div>
-                </div>
-                
-                
-                <div class="slds-form-element__group ">
-                    <div class="slds-form-element__row ">
-                        <lightning:select class="slds-size_1-of-2 " name="callTypeSelect " label="Call Type: " 
-                                          required="true " aura:id="callTypeSelect " value="{!v.newTask.Call_Type__c} ">
-                            <aura:iteration items="{!v.callTypeOptions} " var="item ">
-									<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        <c:strike_datepicker label="Due Date " aura:id="dueDate " required="true " placeholder="Please
-						    provide Activity Date " 
-                                             valueFormat="yyyy-MM-dd " disabled="false " error="false " value="{!v.newTask.ActivityDate} " />
-                        
-                    </div>
-                </div>
-                
-                <div class="slds-form-element__group ">
-                    <div class="slds-form-element__row ">
-                        
-                        <lightning:select class="slds-size_1-of-2 " name="typeOfCallSelect " 
-                                          label="Type Of Call: " required="true " aura:id="typeOfCallSelect " value="{!v.newTask.ONC_Type_Call__c} ">
-                            <aura:iteration items="{!v.typeOfCallOptions} " var="item ">
+						    onchange="{!c.handleTaskStatusChange}">
+							<aura:iteration items=" {!v.statusOptions} " var="item ">
 								<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        <lightning:select class="slds-size_1-of-2 " name="select " 
-                                          disabled="{! empty(v.newTask.WhoId) ? true : false} " label="Product:
+							</aura:iteration>
+						</lightning:select>
+
+
+						<lightning:select name="subjectSelect " class="slds-size_1-of-2 " label="Subject: " required="true " aura:id="subjectSelect "
+						    value="{!v.newTask.Subject} ">
+							<aura:iteration items="{!v.subjectOptions} " var="item ">
+								<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
+							</aura:iteration>
+						</lightning:select>
+					</div>
+				</div>
+
+
+				<div class="slds-form-element__group ">
+					<div class="slds-form-element__row ">
+						<lightning:select class="slds-size_1-of-2 " name="callTypeSelect " label="Call Type: " required="true " aura:id="callTypeSelect "
+						    value="{!v.newTask.Call_Type__c} ">
+							<aura:iteration items="{!v.callTypeOptions} " var="item ">
+								<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
+							</aura:iteration>
+						</lightning:select>
+
+						<c:strike_datepicker label="Due Date " aura:id="dueDate " required="true " placeholder="Please
+						    provide Activity Date " valueFormat="yyyy-MM-dd " disabled="false " error="false " value="{!v.newTask.ActivityDate} "
+						/>
+
+					</div>
+				</div>
+
+				<div class="slds-form-element__group ">
+					<div class="slds-form-element__row ">
+
+						<lightning:select class="slds-size_1-of-2 " name="typeOfCallSelect " label="Type Of Call: " required="true " aura:id="typeOfCallSelect "
+						    value="{!v.newTask.ONC_Type_Call__c} ">
+							<aura:iteration items="{!v.typeOfCallOptions} " var="item ">
+								<option text="{!item.label} " value="{!item.value} " Selected="{!item.selected} " />
+							</aura:iteration>
+						</lightning:select>
+
+						<lightning:select class="slds-size_1-of-2 " name="select " disabled="{! empty(v.newTask.WhoId) ? true : false} " label="Product:
 						    " aura:id="productSelect " value="{!v.newTask.Active_Product__c} ">
-                            <aura:iteration items="{!v.productOptions} " var="item ">
-                                <option text="{!item.label} " value="{!item.value} " selected="{!item.selected} " />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        
-                    </div>
-                </div>
-                <div class="slds-form-element ">
-                    <div class="slds-form-element__control ">
-                        <c:strike_multiSelectPicklist label="Scientific Topic: " aura:id="scientificTopicSelect " 
-                                                      value="{!v.newTask.ONC_Scientific_Topic__c} " helpText="Click on
+							<aura:iteration items="{!v.productOptions} " var="item ">
+								<option text="{!item.label} " value="{!item.value} " selected="{!item.selected} " />
+							</aura:iteration>
+						</lightning:select>
+
+
+					</div>
+				</div>
+				<div class="slds-form-element ">
+					<div class="slds-form-element__control ">
+						<c:strike_multiSelectPicklist label="Scientific Topic: " aura:id="scientificTopicSelect " value="{!v.newTask.ONC_Scientific_Topic__c} "
+						    helpText="Click on
 						    the box below to select Scientific Topics ">
-                            <aura:iteration items="{!v.scientificTopicOptions} " var="item ">
-                                <c:strike_option label="{!item.label} " value="{!item.value} " />
-                            </aura:iteration>
-                        </c:strike_multiSelectPicklist>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <aura:if isTrue="{!v.newMaterialItems.length> 0}">
+							<aura:iteration items="{!v.scientificTopicOptions} " var="item ">
+								<c:strike_option label="{!item.label} " value="{!item.value} " />
+							</aura:iteration>
+						</c:strike_multiSelectPicklist>
 
-							<div class="slds-grid slds-m-top--small">
-								<div class="slds-col">
-									<article class="slds-card">
-										<div class="slds-card__header slds-grid">
-											<header class="slds-media slds-media--center slds-has-flexi-truncate">
-												<div class="slds-media__figure">
-													<lightning:icon iconName="standard:product_item_transaction" alternativeText="Call" /> </div>
-												<div class="slds-media__body slds-truncate">
-													<a href="javascript:void(0);" class="slds-text-link--reset">
-														<span class="slds-text-heading--small">Material Items</span>
-													</a>
-												</div>
-											</header>
-										</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-										<div class="slds-card__body">
-											<table class="slds-table slds-table_bordered slds-table_cell-buffer">
-												<thead>
-													<tr class="slds-text-heading--label">
-														<c:DataTableColumn isHeader="true" label="Item" title="Item">Item</c:DataTableColumn>
-														<c:DataTableColumn isHeader="true" label="Quantity" title="Quantity">Quantity</c:DataTableColumn>
-														<c:DataTableColumn isHeader="true" label="DATE PROVIDED" title="DATE PROVIDED">DATE PROVIDED</c:DataTableColumn>
-														<c:DataTableColumn isHeader="true" label="SOURCE TYPE" title="SOURCE TYPE">SOURCE TYPE</c:DataTableColumn>
-														<c:DataTableColumn isHeader="true" label="AMOUNT" title="AMOUNT">AMOUNT</c:DataTableColumn>
-														<c:DataTableColumn isHeader="true" label="Select All" title="Select All"></c:DataTableColumn>
-													</tr>
-												</thead>
-												<tbody>
-													<aura:iteration items="{!v.newMaterialItems}" var="row" indexVar="index">
-														<tr>
-															<c:DataTableColumn label="Status" title="{!row.Item_Description__c}">{!row.Item_Description__c}</c:DataTableColumn>
-															<c:DataTableColumn label="Status" title="{!row.Quantity__c}">{!row.Quantity__c}</c:DataTableColumn>
-															<c:DataTableColumn label="Class" title="{!row.Date_Provided__c}">{!row.Date_Provided__c}</c:DataTableColumn>
-															<c:DataTableColumn label="Cron" title="{!row.Source_Type__c}">{!row.Source_Type__c}</c:DataTableColumn>
-															<c:DataTableColumn label="Cron" title="{!row.Amount__c}">{!row.Amount__c}</c:DataTableColumn>
-															<c:DataTableColumn label="Name" title="{!row.name}">
-																<lightning:buttonIcon iconName="utility:clear" variant="bare" alternativeText="Clear" iconClass="dark" onclick="{!c.handleClearClick }"
-																    value="{!index}" />
-															</c:DataTableColumn>
-														</tr>
-													</aura:iteration>
-												</tbody>
-											</table>
 
-										</div>
-									</article>
-								</div>
+
+	<aura:if isTrue="{!v.newMaterialItems.length> 0}">
+
+		<div class="slds-grid slds-m-top--small">
+			<div class="slds-col">
+				<article class="slds-card">
+					<div class="slds-card__header slds-grid">
+						<header class="slds-media slds-media--center slds-has-flexi-truncate">
+							<div class="slds-media__figure">
+								<lightning:icon iconName="standard:product_item_transaction" alternativeText="Call" /> </div>
+							<div class="slds-media__body slds-truncate">
+								<a href="javascript:void(0);" class="slds-text-link--reset">
+									<span class="slds-text-heading--small">Material Items</span>
+								</a>
 							</div>
-							</aura:if>
+						</header>
+					</div>
+
+					<div class="slds-card__body">
+						<table class="slds-table slds-table_bordered slds-table_cell-buffer">
+							<thead>
+								<tr class="slds-text-heading--label">
+									<c:DataTableColumn isHeader="true" label="Item" title="Item">Item</c:DataTableColumn>
+									<c:DataTableColumn isHeader="true" label="Quantity" title="Quantity">Quantity</c:DataTableColumn>
+									<c:DataTableColumn isHeader="true" label="DATE PROVIDED" title="DATE PROVIDED">DATE PROVIDED</c:DataTableColumn>
+									<c:DataTableColumn isHeader="true" label="SOURCE TYPE" title="SOURCE TYPE">SOURCE TYPE</c:DataTableColumn>
+									<c:DataTableColumn isHeader="true" label="AMOUNT" title="AMOUNT">AMOUNT</c:DataTableColumn>
+									<c:DataTableColumn isHeader="true" label="Select All" title="Select All"></c:DataTableColumn>
+								</tr>
+							</thead>
+							<tbody>
+								<aura:iteration items="{!v.newMaterialItems}" var="row" indexVar="index">
+									<tr>
+										<c:DataTableColumn label="Status" title="{!row.Item_Description__c}">{!row.Item_Description__c}</c:DataTableColumn>
+										<c:DataTableColumn label="Status" title="{!row.Quantity__c}">{!row.Quantity__c}</c:DataTableColumn>
+										<c:DataTableColumn label="Class" title="{!row.Date_Provided__c}">{!row.Date_Provided__c}</c:DataTableColumn>
+										<c:DataTableColumn label="Cron" title="{!row.Source_Type__c}">{!row.Source_Type__c}</c:DataTableColumn>
+										<c:DataTableColumn label="Cron" title="{!row.Amount__c}">{!row.Amount__c}</c:DataTableColumn>
+										<c:DataTableColumn label="Name" title="{!row.name}">
+											<lightning:buttonIcon iconName="utility:clear" variant="bare" alternativeText="Clear" iconClass="dark" onclick="{!c.handleClearClick }"
+											    value="{!index}" />
+										</c:DataTableColumn>
+									</tr>
+								</aura:iteration>
+							</tbody>
+						</table>
+
+					</div>
+				</article>
+			</div>
+		</div>
+	</aura:if>
 
 
-							<c:strike_modal aura:id="newMaterialItemModal" title="Add Material Item">
-								<aura:set attribute="footerButtons">
-									<div class="slds-modal__footer--directional">
-										<lightning:button variant="neutral" label="Cancel" onclick="{!c.handleClickCancel}" />
-										<lightning:button variant="brand" label="Save" onclick="{!c.handleCreateMaterialItem}" />
-									</div>
-								</aura:set>
-							</c:strike_modal>
+	<c:strike_modal aura:id="newMaterialItemModal" title="Add Material Item">
+		<aura:set attribute="footerButtons">
+			<div class="slds-modal__footer--directional">
+				<lightning:button variant="neutral" label="Cancel" onclick="{!c.handleClickCancel}" />
+				<lightning:button variant="brand" label="Save" onclick="{!c.handleCreateMaterialItem}" />
+			</div>
+		</aura:set>
+	</c:strike_modal>
 
-							<c:Spinner aura:id="spinner" />
+	<c:Spinner aura:id="spinner" />
 
 </aura:component>
