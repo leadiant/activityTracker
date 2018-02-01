@@ -1,3 +1,11 @@
+<!--
+Strike by Appiphony
+
+Version: 1.0.0
+Website: http://www.lightningstrike.io
+GitHub: https://github.com/appiphony/Strike-Components
+License: BSD 3-Clause License
+-->
 <aura:component controller="strike_lookupController" access="global">
     <!-- Required -->
     <aura:attribute name="label" type="String" required="true" description="String value displayed above the menu used to describe the component"/>
@@ -5,6 +13,7 @@
     <aura:attribute name="searchField" type="String" required="true" description="String value that determines which field on the object will be displayed and searched against"/>
 
     <aura:attribute name="helpText" type="String" description="String value when hovering over the help box"/>
+    <aura:attribute name="helpTextPlacement" type="String" default="auto top" description="Determines position of the helpText"/>
     <aura:attribute name="class" type="String" description="A CSS class that will be applied to the outer element. This style is in addition to base classes associated with the component"/>
     <aura:attribute name="placeholder" type="String" description="String value that will appear when no record is selected"/>
     <aura:attribute name="value" type="String" description="String value that holds the Id of the selected record"/>
@@ -51,8 +60,8 @@
     <aura:attribute name="records" type="Object[]" description="List of records returned from the SOQL search" access="private"/>
     <aura:attribute name="searching" type="Boolean" description="Boolean value marked when searching" access="private"/>
     <aura:attribute name="searchTimeout" type="Object" description="Object that holds the search Timeout" access="private"/>
-    <aura:attribute name="valueLabel" type="String" description="String value that holds the searchField of the selected record" access="private"/>
-    <aura:attribute name="valueSublabel" type="String" description="String value that holds the subtitleField of the selected record"/>
+    <aura:attribute name="valueLabel" type="String" description="String value that holds the searchField of the selected record"/>
+    <aura:attribute name="valueSublabel" type="String" description="String value that holds the subtitleField of the selected record" access="public"/>
     <aura:attribute name="isMobile" type="Boolean" default="{!false}" description="Determines if the user is in Salesforce1" access="private"/>
 
     <!-- Event registration and handlers -->
@@ -71,18 +80,18 @@
     <aura:dependency resource="force:createRecord" type="EVENT"/>
 
     <!-- Strike Lookup -->
-    <ui:scrollerWrapper aura:id="lookup" class="{!'slds-form-element slds-lookup slds-is-open ' + if(v.error, 'slds-has-error ', '') + if(v.isMobile, 'sl-lookup--mobile ', '') + if(v.openMenu, ' sl-lookup--open', '') + v.class}">
+    <ui:scrollerWrapper aura:id="lookup" class="{!'slds-form-element slds-lookup slds-is-open ' + if(v.error, 'slds-has-error ', '') + if(v.isMobile, 'sl-lookup--mobile ', '') + if(v.openMenu, 'sl-lookup--open ', '') + v.class}">
         <label class="slds-form-element__label" for="{!'strike-lookup-' + v.idNumber}">
             <aura:if isTrue="{!v.required}">
                 <abbr class="slds-required" title="required">*</abbr>
             </aura:if>
-            {!v.label}
-            <aura:if isTrue="{!not(empty(v.helpText))}">
-                <c:strike_tooltip placement="top" text="{!v.helpText}" class="sl-help-text-icon slds-m-left--x-small">
-                    <lightning:icon iconName="utility:info" size="xx-small"/>
-                </c:strike_tooltip>
-            </aura:if>
+            {!v.label}  
         </label>
+        <aura:if isTrue="{!not(empty(v.helpText))}">
+            <c:strike_tooltip placement="{!v.helpTextPlacement}" text="{!v.helpText}" class="sl-help-text-icon">
+                <lightning:icon iconName="utility:info" size="xx-small"/>
+            </c:strike_tooltip>
+        </aura:if>
         <div class="{!'slds-form-element__control slds-input-has-icon slds-input-has-icon--right' + if(v.disabled, ' sl-disabled', '')}" onclick="{!c.cancelLookup}">
             <div class="{!'slds-pill_container' + if(or(not(empty(v.value)), greaterthan(v.initCallsRunning, 0)), '', ' slds-hide')}">
                 <span class="{!'slds-pill slds-size--1-of-1' + if(greaterthan(v.initCallsRunning, 0), ' sl-pill--loading', '')}">
@@ -102,8 +111,8 @@
                     </button>
                 </span>
             </div>
-            <div class="{!'sl-lookup__input_container slds-grid slds-grid--pull-padded-xx-small' + if(and(equals(v.initCallsRunning, 0), empty(v.value)), '', ' slds-hide')}">
-                <div class="sl-lookup__input slds-col slds-p-horizontal--xx-small">
+            <div class="{!'sl-lookup__input_container' + if(v.isMobile == true, ' slds-grid slds-grid--pull-padded-xx-small', '') + if(and(equals(v.initCallsRunning, 0), empty(v.value)), '', ' slds-hide')}">
+                <div class="{!'sl-lookup__input' + if(v.isMobile == true, ' slds-col slds-p-horizontal--xx-small', '')}">
                     <lightning:icon iconName="utility:search" size="x-small" class="sl-search-icon"/>
                     <input
                         aura:id="lookupInput"
@@ -189,3 +198,15 @@
         </aura:if>
     </ui:scrollerWrapper>
 </aura:component>
+<!--
+Copyright 2017 Appiphony, LLC
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote 
+products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->

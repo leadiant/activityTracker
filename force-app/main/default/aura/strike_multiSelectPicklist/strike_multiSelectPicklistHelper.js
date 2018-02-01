@@ -1,53 +1,60 @@
+/*
+Strike by Appiphony
+
+Version: 1.0.0
+Website: http://www.lightningstrike.io
+GitHub: https://github.com/appiphony/Strike-Components
+License: BSD 3-Clause License
+*/
 ({
     addToComponentValue: function(component, event, helper) {
-
         var selectedOptionValue = event.getParams('params').data.value;
         var componentValue = component.get('v.value');
-
         var valueArray = !componentValue ? [] : componentValue.split(';');
-        valueArray.push(selectedOptionValue);
+        
+        if (valueArray.indexOf(selectedOptionValue) === -1) {
+            valueArray.push(selectedOptionValue);
+        }
+
         var newValue = valueArray.join(';');
         component.set('v.value', newValue);
-
     },
     removeOptionFromList: function(component, event, helper) {
-
         var sourceCmp = event.getSource();
         sourceCmp.set('v.hidden', true);
     },
     createOptionPill: function(component, event, helper) {
-        var sourceValue, sourceLabel, sourceIconName;
+        var sourceValue, sourceLabel, sourceIconName, destroyable;
         
-        if (event.getName() == 'strike_evt_notifyParent') {
+        if (event.getName() === 'strike_evt_notifyParent') {
             sourceValue = event.getParams('params').data.value;
             sourceLabel = event.getParams('params').data.label;
             sourceIconName = event.getParams('params').data.iconName;
+            destroyable = event.getParams('params').data.destroyable;
         } else {
             sourceValue = event.getParams('params').value;
             sourceLabel = null;
             sourceIconName = null;
+            destroyable = true;
         }
 
-        var attributes = {
+        var pillAttributes = {
             "value": sourceValue,
             "label": sourceLabel,
             "iconName": sourceIconName,
-            "destroyable": true
+            "destroyable": destroyable
         }
 
-        var callback = function(newPill, status, errorMessage) {
-            if (status === "SUCCESS") {
+        var selectedOptionPills = component.get('v.selectedOptionPills');
 
-                if (sourceLabel) {
-                    var selectedOptionPills = component.get('v.selectedOptionPills');
+        if(sourceLabel && selectedOptionPills.map(function(x){return x.value}).indexOf(sourceValue) === -1){
+            selectedOptionPills.push(pillAttributes);
 
-                    selectedOptionPills.push(newPill);
-                    component.set('v.selectedOptionPills', [].concat(selectedOptionPills));
-                }
-            }
+            window.setTimeout($A.getCallback(function() {
+                component.set('v.selectedOptionPills', Array.prototype.concat.apply([], selectedOptionPills));
+            }), 100);
         }
 
-        $A.createComponent("c:strike_pill", attributes, callback);
     },
     openMenu: function(component) {
         var childCmps = component.get('v.body');
@@ -67,27 +74,39 @@
                 }
             }
         })
-        
+
         if(openMenu){
             component.set('v.menuIsOpen', true);
         }
     },
     closeMenu: function(component) {
         var isMobile = component.get('v.isMobile');
-        
+
         component.set('v.menuIsOpen', false);
         component.set('v.focusIndex', null);
+    },
+    clearInputValue: function(component){
+        component.find('inputField').getElement().value = '';
+        component.set('v.searchTerm', null);
+        this.findValidChildCmps(component);
+        var validChildCmps = component.get('v.validChildCmps');
+        validChildCmps.forEach(function(child){
+            child.filterBy('');
+        })
+
     },
     removeOptionPill: function(component, event) {
         var currentOptionPills = component.get('v.selectedOptionPills');
         var destroyedCmp = event.getSource();
-        var destroyedCmpIndex = currentOptionPills.indexOf(destroyedCmp);
+
+        var destroyedCmpIndex = currentOptionPills.map(function(x) {return(x.value)}).indexOf(destroyedCmp.get('v.value'));
 
         currentOptionPills.splice(destroyedCmpIndex, 1);
         component.set('v.selectedOptionPills', currentOptionPills);
+
     },
     addOptionToList: function(component, event, helper) {
-        var sourceCmpValue = event.getSource().get('v.value');
+        var sourceCmpValue = event.getParam('data').value;
         helper.findValidChildCmps(component, event, helper);
         var dropDownOptions = component.get('v.validChildCmps');
         component.set('v.validChildCmps', null);
@@ -99,7 +118,7 @@
         })
     },
     removeFromComponentValue: function(component, event) {
-        var sourceCmpValue = event.getSource().get('v.value');
+        var sourceCmpValue = event.getParam('data').value;
         var parentCmpValue = component.get('v.value');
 
         var valueArray = parentCmpValue.split(';');
@@ -119,7 +138,7 @@
     updateValueByFocusIndex: function(component, event, helper) {
         var focusIndex = component.get('v.focusIndex');
 
-        if (focusIndex == null) {
+        if (focusIndex === null) {
             return
         }
         helper.findValidChildCmps(component, event, helper);
@@ -150,7 +169,7 @@
                 }
             });
 
-            if (focusIndex == null || focusIndex == indecesToShow[0]) {
+            if (focusIndex === null || focusIndex === indecesToShow[0]) {
                 focusIndex = indecesToShow[indecesToShow.length - 1];
 
             } else {
@@ -164,7 +183,7 @@
 
             component.set('v.focusIndex', focusIndex);
 
-            helper.setFocus(component, event, helper);
+            helper.setFocus(component, event, helper, null, 'up');
         }
     },
     moveRecordFocusDown: function(component, event, helper) {
@@ -187,7 +206,7 @@
                 }
             });
 
-            if (focusIndex == null || focusIndex == indecesToShow[indecesToShow.length - 1]) {
+            if (focusIndex === null || focusIndex === indecesToShow[indecesToShow.length - 1]) {
                 focusIndex = indecesToShow[0];
             } else {
 
@@ -201,13 +220,15 @@
 
             component.set('v.focusIndex', focusIndex);
 
-            helper.setFocus(component, event, helper);
+            //passsing null value for parentCmp bc we are already in the list and it wont be necessary to pass value
+
+            helper.setFocus(component, event, helper, null, 'down');
         } else {
 
             helper.openMenu(component,event,helper);
         }
     },
-    setFocus: function(component, event, helper, parentCmp) {
+    setFocus: function(component, event, helper, parentCmp, direction) {
         if ($A.util.isUndefined(component.find)) {
             component = parentCmp;
         };
@@ -215,39 +236,31 @@
         var focusIndex = component.get('v.focusIndex');
 
         var multiSelectMenu = component.find('multiSelectMenu');
-        if (focusIndex == null) {
+        if (focusIndex === null) {
             return;
         }
         helper.findValidChildCmps(component, event, helper);
         var childCmps = component.get('v.validChildCmps');
         component.set('v.validChildCmps', null);
 
-        var focusScrollTop = 0;
-        var focusScrollBottom = 0;
-
         for (var i = 0; i < childCmps.length; i++) {
-
             if (i < focusIndex) {
-                focusScrollTop += childCmps[i].scrollHeight;
-
                 childCmps[i].set('v.focused', false);
 
-            } else if (i == focusIndex) {
-
+            } else if (i === focusIndex) {
+                if (direction === 'down') {
+                    childCmps[i].getElement().scrollIntoView({block: "start", behavior: "auto"});
+                } else {
+                    childCmps[i].getElement().scrollIntoView({block: "end", behavior: "auto"});
+                }
                 childCmps[i].set('v.focused', true);
+                
             } else {
                 childCmps[i].set('v.focused', false);
-
             }
         }
-
-        focusScrollBottom = focusScrollTop + childCmps[focusIndex].scrollHeight;
-
-        if (focusScrollTop < multiSelectMenu.scrollTop) {
-            multiSelectMenu.scrollTop = focusScrollTop;
-        } else if (focusScrollBottom > multiSelectMenu.scrollTop + multiSelectMenu.clientHeight) {
-            multiSelectMenu.scrollTop = focusScrollBottom - multiSelectMenu.clientHeight;
-        }
+        
+        window.scrollTo(0, component.get('v.scrollPosition'));
     },
     doSearch: function(component, event, helper, searchTerm, parentCmp) {
         if (!parentCmp) {
@@ -257,12 +270,15 @@
         if (!parentCmp && !menuIsOpen) {
             component.set('v.menuIsOpen', true);
         }
-        
+
+        if(!searchTerm){searchTerm = '';}
+
         component.get('v.body').forEach(function(child) {
             if ($A.util.isUndefined(child.filterBy)) {
                 helper.doSearch(child, event, helper, searchTerm, component);
-                
+
             } else {
+
                 child.filterBy(searchTerm);
 
                 helper.updateFocusIndexByFilter(component, event, helper, parentCmp);
@@ -275,11 +291,11 @@
         var body = component.get('v.body');
         var filteredCount = 0;
         var isCorrectBody;
-        
+
         body.forEach(function(child) {
             if (!$A.util.isUndefined(child.filterBy)) {
                 isCorrectBody = true;
-                if (child.get('v.filtered')) {
+                if (child.get('v.filtered') || child.get('v.hidden')) {
                     filteredCount++;
                 }
             }
@@ -314,7 +330,7 @@
         }
         helper.setFocus(component, event, helper, parentCmp);
     },
-    findValidChildCmps: function(component, event, helper) {
+    findValidChildCmps: function(component) {
         var childCmps = component.get('v.body');
 
         childCmps.forEach(function(child) {
@@ -326,29 +342,78 @@
         })
     },
     handleValueOnInit: function(component,event,helper){
-        
         var value = component.get('v.value');
 
         var valueArray = value.split(';');
 
         var body = component.get('v.body');
         var childCmps;
-        body.forEach(function(child){   
+        body.forEach(function(child){
            if($A.util.isUndefined(child.filterBy)){
-                
+
                 childCmps = child.get('v.body');
            } else {
                 childCmps = body;
            }
         });
-
         childCmps.forEach(function(child){
             var childValue = child.get('v.value');
 
-            if(valueArray.indexOf(childValue) != -1){
+            if(valueArray.indexOf(childValue) !== -1){
                 child.select();
             }
-        })
+        });
 
+        helper.checkForValidValue(component, value, valueArray, childCmps);
+    },
+    checkForValidValue: function(component, originalValue, valueArray, childCmps){
+        valueArray.forEach(function(thisValue){
+            if(childCmps.map(function(child){return child.get('v.value')}).indexOf(thisValue) === -1){
+                valueArray.splice(valueArray.indexOf(thisValue));
+            }
+        });
+
+        var newValue = valueArray.join(';');
+        this.checkForPillDeletion(component, valueArray);
+
+        if(newValue !== originalValue){
+            component.set('v.value', newValue);
+        }
+    },
+    checkForPillDeletion: function(component, valueArray){
+        var selectedOptionPills = component.get('v.selectedOptionPills');
+        if(valueArray.length < selectedOptionPills.length){
+            var pillContainer = component.find('optionPillContainer');
+            var pillContainerBody = pillContainer.get('v.body');
+            var pills = pillContainerBody[0].get('v.body');
+
+            pills.forEach(function(pill){
+                var pillCmp = pill.get('v.body')[0];
+                if(valueArray.indexOf(pillCmp.get('v.value')) === -1){
+                    pillCmp.destroyPill();
+                }
+            });
+        }
     }
 })
+/*
+Copyright 2017 Appiphony, LLC
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
+following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following
+disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following
+disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
