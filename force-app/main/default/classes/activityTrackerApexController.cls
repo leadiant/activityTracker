@@ -9,29 +9,6 @@ public with sharing class  activityTrackerApexController {
     //Default Type Of Call
     public static final String DEFAULT_TYPEOFCALL = 'Branded';
 
-     public class SelectOption {
-
-        public SelectOption(string strLabel, string strValue,Boolean bSelected,Boolean bDisabled) {
-            label = strLabel;
-            value = strValue;
-            selected = bSelected;
-            disabled = bDisabled;
-            
-        }
-
-        @AuraEnabled
-        public string label { get; set; }
-
-        @AuraEnabled
-        public string value { get; set; }
-        
-        @AuraEnabled
-        public Boolean  selected { get; set; }
-        
-        @AuraEnabled
-        public Boolean  disabled { get; set; }
-    }
-    
     @AuraEnabled
     public static String insertActivity(sObject task,List<sObject> materialItems){
         
@@ -61,7 +38,7 @@ public with sharing class  activityTrackerApexController {
       strike_responseData responseData = new strike_responseData();
         
         try {
-                List<SelectOption> productOptions = new List<SelectOption>();
+                List<Map<String, Object>> productOptions = new List<Map<String, Object>>();
                 Map<String, Object> jsonMap = (Map<String, Object>)JSON.deserializeUntyped(jsonString);
                 
                 Id contactId = (String)jsonMap.get('contactId');
@@ -70,7 +47,12 @@ public with sharing class  activityTrackerApexController {
                 
                if (string.isNotEmpty(con.Active_product__c)) {
                         for (string product : con.Active_product__c.split(';') ) {
-                            productOptions.add(new SelectOption(product,product,false,false));
+                             productOptions.add(new Map<String, Object>{
+                                    'label' => product,
+                                    'value' => product,
+                                    'selected'=> false,
+                                    'disabled'=>false
+                                });
                     }
                 } 
                 else {
@@ -97,6 +79,7 @@ public with sharing class  activityTrackerApexController {
     
       strike_responseData responseData = new strike_responseData();
       responseData.results = activityTrackerApexController.getData();
+      system.debug(responseData.getJsonString());
       return responseData.getJsonString();
     }
     
@@ -108,13 +91,27 @@ public with sharing class  activityTrackerApexController {
       
       Map <String, List <ONC_Marketing_Material__c>> marketingMaterialsMap = new Map <String, List <ONC_Marketing_Material__c>>();
 
-      List<SelectOption> statusOptions = new List<SelectOption>();
+      List<Map<String, Object>> statusOptions = new List<Map<String, Object>>();
       Schema.DescribeFieldResult actStatus = Task.Status.getDescribe();
         for(Schema.PicklistEntry entry : actStatus.getPicklistValues()){
             if (entry.getValue().equals(DEFAULT_STATUS))
-                statusOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),true,false));
+            {
+                statusOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> true,
+                    'disabled'=>false
+                });
+            }
             else
-                statusOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),false,false));
+            {
+                    statusOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> false,
+                    'disabled'=>false
+                     });
+            }
         }
         
         data.add(new Map<String, Object>{
@@ -123,13 +120,23 @@ public with sharing class  activityTrackerApexController {
                 });
         
        
-       List<SelectOption> subjectOptions = new List<SelectOption>();
+       List<Map<String, Object>> subjectOptions = new List<Map<String, Object>>();
         Schema.DescribeFieldResult actSubject = Task.Subject.getDescribe();
         for(Schema.PicklistEntry entry : actSubject.getPicklistValues()){
             if (entry.getValue().equals(DEFAULT_SUBJECT))
-                subjectOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),true,false));
+                 subjectOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> true,
+                    'disabled'=>false
+                });
             else
-                subjectOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),false,false));
+                subjectOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> false,
+                    'disabled'=>false
+                     });
            
          
         }
@@ -139,13 +146,24 @@ public with sharing class  activityTrackerApexController {
                     'values' => subjectOptions
                 });
         
-        List<SelectOption> callTypeOptions = new List<SelectOption>();
+        List<Map<String, Object>> callTypeOptions = new List<Map<String, Object>>();
         Schema.DescribeFieldResult callType = Task.Call_Type__c.getDescribe();
         for(Schema.PicklistEntry entry : callType.getPicklistValues()){
              if (entry.getValue().equals(DEFAULT_CALLTYPE))
-                callTypeOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),true,false));
+                callTypeOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> true,
+                    'disabled'=>false
+                });
             else
-                callTypeOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),false,false));
+                 callTypeOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> false,
+                    'disabled'=>false
+                     });
+
         }
         
         data.add(new Map<String, Object>{
@@ -153,13 +171,23 @@ public with sharing class  activityTrackerApexController {
                     'values' => callTypeOptions
                 });
                 
-        List<SelectOption> typeOfCallOptions = new List<SelectOption>();
+        List<Map<String, Object>> typeOfCallOptions = new List<Map<String, Object>>();
         Schema.DescribeFieldResult actONCTp = Task.ONC_Type_Call__c.getDescribe();
         for(Schema.PicklistEntry entry : actONCTp.getPicklistValues()){
            if (entry.getValue().equals(DEFAULT_TYPEOFCALL))
-                typeOfCallOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),true,false));
+                typeOfCallOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> true,
+                    'disabled'=>false
+                });
             else
-                typeOfCallOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),false,false));
+                typeOfCallOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> false,
+                    'disabled'=>false
+                     });
         }
         
         data.add(new Map<String, Object>{
@@ -167,10 +195,15 @@ public with sharing class  activityTrackerApexController {
                     'values' => typeOfCallOptions
                 });
         
-        List<SelectOption> scientificTopicOptions = new List<SelectOption>();
+        List<Map<String, Object>> scientificTopicOptions = new List<Map<String, Object>>();
         Schema.DescribeFieldResult actONCSciTp = Task.ONC_Scientific_Topic__c.getDescribe();
         for(Schema.PicklistEntry entry : actONCSciTp.getPicklistValues()){
-            scientificTopicOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),true,false));
+             scientificTopicOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> true,
+                    'disabled'=>false
+                });
         }
         
         data.add(new Map<String, Object>{
@@ -178,10 +211,15 @@ public with sharing class  activityTrackerApexController {
                     'values' => scientificTopicOptions
                 });
         
-        List<SelectOption> sourceTypeOptions = new List<SelectOption>();
+        List<Map<String, Object>> sourceTypeOptions = new List<Map<String, Object>>();
         Schema.DescribeFieldResult sourceType  = Material_Items__c.Source_Type__c.getDescribe();
         for(Schema.PicklistEntry entry : sourceType.getPicklistValues()){
-            sourceTypeOptions.add(new SelectOption(entry.getLabel(), entry.getValue(),true,false));
+            sourceTypeOptions.add(new Map<String, Object>{
+                    'label' => entry.getLabel(),
+                    'value' => entry.getValue(),
+                    'selected'=> true,
+                    'disabled'=>false
+                });
         }
         
         data.add(new Map<String, Object>{

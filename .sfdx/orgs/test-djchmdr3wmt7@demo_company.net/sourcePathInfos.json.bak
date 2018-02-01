@@ -124,13 +124,12 @@
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp-meta.xml",
             "isDirectory": false,
             "size": 216,
-            "modifiedTime": 1516907463330,
-            "changeTime": 1516907463330,
-            "contentHash": "67ed1f5733b1ce65f40dc2cd4dc35a8bd63a6b3c",
+            "modifiedTime": 1517508844457,
+            "changeTime": 1517508844457,
+            "contentHash": "ca34d6bed1dc70f3e5c964bb7df347853ec493c1",
             "isMetadataFile": true,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -346,29 +345,29 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2567,
             "modifiedTime": 1517508462281,
             "changeTime": 1517508534828,
-            "isWorkspace": false,
-            "contentHash": "bd51df96e7664a7df517415e34a8162c387d5aad"
+            "contentHash": "bd51df96e7664a7df517415e34a8162c387d5aad",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\defaultTokens\\defaultTokens.tokens-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508462306,
             "changeTime": 1517508534844,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -524,85 +523,85 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 11897,
             "modifiedTime": 1517508462757,
             "changeTime": 1517508549003,
-            "isWorkspace": false,
-            "contentHash": "91a42a26da529aafcefa5f9773ee8065c65ab9cb"
+            "contentHash": "91a42a26da529aafcefa5f9773ee8065c65ab9cb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508462775,
             "changeTime": 1517508549016,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepicker.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5708,
             "modifiedTime": 1517508462795,
             "changeTime": 1517508549029,
-            "isWorkspace": false,
-            "contentHash": "6b42a78e3fa65ea8db91ab30960096b9de9351ba"
+            "contentHash": "6b42a78e3fa65ea8db91ab30960096b9de9351ba",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 10307,
             "modifiedTime": 1517508462810,
             "changeTime": 1517508549038,
-            "isWorkspace": false,
-            "contentHash": "9a78d3a3af8c44fca5bc445e8e425eac0373c9ea"
+            "contentHash": "9a78d3a3af8c44fca5bc445e8e425eac0373c9ea",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 14500,
             "modifiedTime": 1517508462824,
             "changeTime": 1517508549045,
-            "isWorkspace": false,
-            "contentHash": "bcc2292335a28b3a9e677f261dc2ce8bdacdcb82"
+            "contentHash": "bcc2292335a28b3a9e677f261dc2ce8bdacdcb82",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerRenderer.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_datepicker\\strike_datepickerRenderer.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1788,
             "modifiedTime": 1517508462839,
             "changeTime": 1517508549052,
-            "isWorkspace": false,
-            "contentHash": "b6996aa6b6835f198ff9382d94262f42d5968807"
+            "contentHash": "b6996aa6b6835f198ff9382d94262f42d5968807",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -623,29 +622,29 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1763,
             "modifiedTime": 1517508462858,
             "changeTime": 1517508556178,
-            "isWorkspace": false,
-            "contentHash": "33ee9aeaddbee4f1e796babb8e886e334b61b2d2"
+            "contentHash": "33ee9aeaddbee4f1e796babb8e886e334b61b2d2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_evt\\strike_evt.evt-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 210,
             "modifiedTime": 1517508462878,
             "changeTime": 1517508556186,
-            "isWorkspace": false,
-            "contentHash": "f7ee9cb8389c90e583a6a36dea2316c49f4541a6"
+            "contentHash": "f7ee9cb8389c90e583a6a36dea2316c49f4541a6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -666,43 +665,43 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 14786,
             "modifiedTime": 1517508462899,
             "changeTime": 1517508564696,
-            "isWorkspace": false,
-            "contentHash": "46bc6354b2d2230c1d0dc505df46dcee812360f1"
+            "contentHash": "46bc6354b2d2230c1d0dc505df46dcee812360f1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508462919,
             "changeTime": 1517508564708,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_input.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2749,
             "modifiedTime": 1517508462939,
             "changeTime": 1517508564721,
-            "isWorkspace": false,
-            "contentHash": "a67b5043b2a5908311c52e905a8ddffe2efbea99"
+            "contentHash": "a67b5043b2a5908311c52e905a8ddffe2efbea99",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -723,29 +722,29 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5649,
             "modifiedTime": 1517508462954,
             "changeTime": 1517508564730,
-            "isWorkspace": false,
-            "contentHash": "e623cd09f46a595c9708c76b34d03e5a9623e847"
+            "contentHash": "e623cd09f46a595c9708c76b34d03e5a9623e847",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_input\\strike_inputHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3093,
             "modifiedTime": 1517508462969,
             "changeTime": 1517508564738,
-            "isWorkspace": false,
-            "contentHash": "130c72548c7b550e4a1f6a3a69065c00b68946c9"
+            "contentHash": "130c72548c7b550e4a1f6a3a69065c00b68946c9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -781,85 +780,85 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp",
             "isDirectory": false,
+            "size": 16534,
+            "modifiedTime": 1517508907090,
+            "changeTime": 1517508907090,
+            "contentHash": "b104db71f04c9e93e350df170249e5fd07623e27",
             "isMetadataFile": false,
-            "size": 16535,
-            "modifiedTime": 1517508462990,
-            "changeTime": 1517508572300,
-            "isWorkspace": false,
-            "contentHash": "bcccbae6d9d6b9cef3ea304dc86fbe2f19a11c09"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508463010,
             "changeTime": 1517508572318,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 7050,
             "modifiedTime": 1517508463031,
             "changeTime": 1517508572329,
-            "isWorkspace": false,
-            "contentHash": "c0c1378d3d915bab8a1581547f50b96967adaecf"
+            "contentHash": "c0c1378d3d915bab8a1581547f50b96967adaecf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 9207,
             "modifiedTime": 1517508463056,
             "changeTime": 1517508572340,
-            "isWorkspace": false,
-            "contentHash": "8ce5bc798d8285503673575d7ad993bb21e9e6ba"
+            "contentHash": "8ce5bc798d8285503673575d7ad993bb21e9e6ba",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 11772,
             "modifiedTime": 1517508463071,
             "changeTime": 1517508572349,
-            "isWorkspace": false,
-            "contentHash": "70b53efc4788e4693adab0ca02d04a7f87d5e4d1"
+            "contentHash": "70b53efc4788e4693adab0ca02d04a7f87d5e4d1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupRenderer.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookupRenderer.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1781,
             "modifiedTime": 1517508463087,
             "changeTime": 1517508572358,
-            "isWorkspace": false,
-            "contentHash": "0f8f1bc86005ffc881b37e8b051b7ece50073336"
+            "contentHash": "0f8f1bc86005ffc881b37e8b051b7ece50073336",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -880,71 +879,71 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5699,
             "modifiedTime": 1517508463109,
             "changeTime": 1517508579675,
-            "isWorkspace": false,
-            "contentHash": "fa7d8580161591b83638d7b34683f64c762d3ecc"
+            "contentHash": "fa7d8580161591b83638d7b34683f64c762d3ecc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modal.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508463132,
             "changeTime": 1517508579696,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3650,
             "modifiedTime": 1517508463151,
             "changeTime": 1517508579708,
-            "isWorkspace": false,
-            "contentHash": "21dd41d0a28ead628ba55d5455e820bbaf77d493"
+            "contentHash": "21dd41d0a28ead628ba55d5455e820bbaf77d493",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3231,
             "modifiedTime": 1517508463169,
             "changeTime": 1517508579717,
-            "isWorkspace": false,
-            "contentHash": "56c85196ddf327765f01afe5da647fc8af77aebd"
+            "contentHash": "56c85196ddf327765f01afe5da647fc8af77aebd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalRenderer.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_modal\\strike_modalRenderer.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1784,
             "modifiedTime": 1517508463188,
             "changeTime": 1517508579726,
-            "isWorkspace": false,
-            "contentHash": "f14214253df797e0eba9966ed8cc9d5bd2c6c0b4"
+            "contentHash": "f14214253df797e0eba9966ed8cc9d5bd2c6c0b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -980,85 +979,85 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 10921,
             "modifiedTime": 1517508463334,
             "changeTime": 1517508588273,
-            "isWorkspace": false,
-            "contentHash": "f3685981a0a19189c8f4bc356b3b078de3d3747c"
+            "contentHash": "f3685981a0a19189c8f4bc356b3b078de3d3747c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508463358,
             "changeTime": 1517508588280,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklist.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3464,
             "modifiedTime": 1517508463380,
             "changeTime": 1517508588288,
-            "isWorkspace": false,
-            "contentHash": "7caa92f7eb55617f233ef988ba8cd74d15fa0491"
+            "contentHash": "7caa92f7eb55617f233ef988ba8cd74d15fa0491",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 6512,
             "modifiedTime": 1517508463398,
             "changeTime": 1517508588296,
-            "isWorkspace": false,
-            "contentHash": "91e8f97b1e2f3ffcd16e8f401e36cb0560781cd9"
+            "contentHash": "91e8f97b1e2f3ffcd16e8f401e36cb0560781cd9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 15354,
             "modifiedTime": 1517508463414,
             "changeTime": 1517508588304,
-            "isWorkspace": false,
-            "contentHash": "069bc7e6d96d78982e4ccced772609f273b74203"
+            "contentHash": "069bc7e6d96d78982e4ccced772609f273b74203",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistRenderer.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_multiSelectPicklist\\strike_multiSelectPicklistRenderer.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1783,
             "modifiedTime": 1517508463429,
             "changeTime": 1517508588312,
-            "isWorkspace": false,
-            "contentHash": "6f25d262e1f889b3db13ebf44dd16b2fc83de40d"
+            "contentHash": "6f25d262e1f889b3db13ebf44dd16b2fc83de40d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1079,71 +1078,71 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4435,
             "modifiedTime": 1517508463450,
             "changeTime": 1517508596112,
-            "isWorkspace": false,
-            "contentHash": "23f53021d92cfe183a0c664072afbc2ee9056c65"
+            "contentHash": "23f53021d92cfe183a0c664072afbc2ee9056c65",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508463468,
             "changeTime": 1517508596121,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_option.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2020,
             "modifiedTime": 1517508463488,
             "changeTime": 1517508596129,
-            "isWorkspace": false,
-            "contentHash": "cbff05cabbe5f791e542246e8c486e5ad01f4b97"
+            "contentHash": "cbff05cabbe5f791e542246e8c486e5ad01f4b97",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3580,
             "modifiedTime": 1517508463504,
             "changeTime": 1517508596140,
-            "isWorkspace": false,
-            "contentHash": "2f08a3db1c62a961db90178e406ec73a2c8251ea"
+            "contentHash": "2f08a3db1c62a961db90178e406ec73a2c8251ea",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_option\\strike_optionHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2193,
             "modifiedTime": 1517508463518,
             "changeTime": 1517508596149,
-            "isWorkspace": false,
-            "contentHash": "ca62197151290fdcbfd63ec16f33f38712a14a4b"
+            "contentHash": "ca62197151290fdcbfd63ec16f33f38712a14a4b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1164,71 +1163,71 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 6816,
             "modifiedTime": 1517508463941,
             "changeTime": 1517508602018,
-            "isWorkspace": false,
-            "contentHash": "cbcabe878c609be00a2f376f0f1224b07407cfa3"
+            "contentHash": "cbcabe878c609be00a2f376f0f1224b07407cfa3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508463964,
             "changeTime": 1517508602034,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pill.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1900,
             "modifiedTime": 1517508463985,
             "changeTime": 1517508602047,
-            "isWorkspace": false,
-            "contentHash": "f0a8b86ebbafcbcd50a3a7051ae96a5df62a1535"
+            "contentHash": "f0a8b86ebbafcbcd50a3a7051ae96a5df62a1535",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2064,
             "modifiedTime": 1517508464001,
             "changeTime": 1517508602054,
-            "isWorkspace": false,
-            "contentHash": "fb254b93fa03a1998158f4185fe6d203064f8541"
+            "contentHash": "fb254b93fa03a1998158f4185fe6d203064f8541",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_pill\\strike_pillHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1954,
             "modifiedTime": 1517508464018,
             "changeTime": 1517508602062,
-            "isWorkspace": false,
-            "contentHash": "a62446a61e621cc524a00af8ab7dbcf68444380c"
+            "contentHash": "a62446a61e621cc524a00af8ab7dbcf68444380c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1249,43 +1248,43 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2128,
             "modifiedTime": 1517508464457,
             "changeTime": 1517508607956,
-            "isWorkspace": false,
-            "contentHash": "58ed1b2440fad8cefade67e76f050ae69ea947e9"
+            "contentHash": "58ed1b2440fad8cefade67e76f050ae69ea947e9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svg.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508464477,
             "changeTime": 1517508607972,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svgRenderer.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_svg\\strike_svgRenderer.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2776,
             "modifiedTime": 1517508464492,
             "changeTime": 1517508607986,
-            "isWorkspace": false,
-            "contentHash": "6666f4852e7ba884f239137fe19d604e3bc6966b"
+            "contentHash": "6666f4852e7ba884f239137fe19d604e3bc6966b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1306,71 +1305,71 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3005,
             "modifiedTime": 1517508464691,
             "changeTime": 1517508617077,
-            "isWorkspace": false,
-            "contentHash": "20c81b070f2af567dcbfc4de7e746391a501ffe7"
+            "contentHash": "20c81b070f2af567dcbfc4de7e746391a501ffe7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1517508464710,
             "changeTime": 1517508617095,
-            "isWorkspace": false,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.css",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltip.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2002,
             "modifiedTime": 1517508464729,
             "changeTime": 1517508617108,
-            "isWorkspace": false,
-            "contentHash": "2ee256b6f480f3b3f679afe36868609d8ad20592"
+            "contentHash": "2ee256b6f480f3b3f679afe36868609d8ad20592",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2568,
             "modifiedTime": 1517508464745,
             "changeTime": 1517508617116,
-            "isWorkspace": false,
-            "contentHash": "ae66a5ccd9bd160d270506a8f5e52d622a3af1e8"
+            "contentHash": "ae66a5ccd9bd160d270506a8f5e52d622a3af1e8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_tooltip\\strike_tooltipHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 7804,
             "modifiedTime": 1517508464759,
             "changeTime": 1517508617123,
-            "isWorkspace": false,
-            "contentHash": "3ae1a3335c762be1026cb136be3e5650abea84e4"
+            "contentHash": "3ae1a3335c762be1026cb136be3e5650abea84e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1436,30 +1435,29 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1517508670681,
             "changeTime": 1517508670700,
-            "isWorkspace": false,
-            "contentHash": "fdd1471782a3210b0ede9eff62e3e35ad4724892"
+            "contentHash": "fdd1471782a3210b0ede9eff62e3e35ad4724892",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
             "isDirectory": false,
-            "size": 8877,
-            "modifiedTime": 1516911697234,
-            "changeTime": 1516911697234,
-            "contentHash": "d47e6ebffb196da816eb11bfec702f6cd3ba0029",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 10950,
+            "modifiedTime": 1517510478675,
+            "changeTime": 1517510478675,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "4aa7317b24bebbcef018eada1fd5861ce4f2987f"
         }
     ],
     [
@@ -1468,97 +1466,96 @@
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls-meta.xml",
             "isDirectory": false,
             "size": 179,
-            "modifiedTime": 1516907463518,
-            "changeTime": 1516907463518,
-            "contentHash": "0d221f8a056acfcadca290ea2b5d1d6f91eb8ad2",
+            "modifiedTime": 1517508837834,
+            "changeTime": 1517508837834,
+            "contentHash": "0a15b49880adb4316e2657cfbee30a236c1592e4",
             "isMetadataFile": true,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 10592,
             "modifiedTime": 1517508464777,
             "changeTime": 1517508670644,
-            "isWorkspace": false,
-            "contentHash": "761940abce528071c9ba65899b2316e0e31bee37"
+            "contentHash": "761940abce528071c9ba65899b2316e0e31bee37",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_lookupController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1517508464797,
             "changeTime": 1517508670651,
-            "isWorkspace": false,
-            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49"
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2330,
             "modifiedTime": 1517508464813,
             "changeTime": 1517508670659,
-            "isWorkspace": false,
-            "contentHash": "a616477613ab364e1f2e6ac19904727da7976f8f"
+            "contentHash": "a616477613ab364e1f2e6ac19904727da7976f8f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_responseData.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1517508464833,
             "changeTime": 1517508670667,
-            "isWorkspace": false,
-            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49"
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2566,
             "modifiedTime": 1517508464881,
             "changeTime": 1517508670675,
-            "isWorkspace": false,
-            "contentHash": "6f55d561fe50fcff0c92d811c1e94a0b89fccac9"
+            "contentHash": "6f55d561fe50fcff0c92d811c1e94a0b89fccac9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_utilities.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1517508464899,
             "changeTime": 1517508670682,
-            "isWorkspace": false,
-            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49"
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -3049,27 +3046,27 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_tst_lookupController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_tst_lookupController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 6916,
             "modifiedTime": 1517508464848,
             "changeTime": 1517508669143,
-            "contentHash": "b01b3d9784312ca46dbd9ecb5123dd3e7eae410b"
+            "contentHash": "b01b3d9784312ca46dbd9ecb5123dd3e7eae410b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_tst_lookupController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\strike_tst_lookupController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1517508464867,
             "changeTime": 1517508669147,
-            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49"
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

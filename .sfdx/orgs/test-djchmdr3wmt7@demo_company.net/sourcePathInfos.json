@@ -121,15 +121,15 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 216,
             "modifiedTime": 1517508844457,
             "changeTime": 1517508844457,
-            "isWorkspace": false,
-            "contentHash": "ca34d6bed1dc70f3e5c964bb7df347853ec493c1"
+            "contentHash": "ca34d6bed1dc70f3e5c964bb7df347853ec493c1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -780,15 +780,15 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\strike_lookup\\strike_lookup.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 16534,
             "modifiedTime": 1517508907090,
             "changeTime": 1517508907090,
-            "isWorkspace": false,
-            "contentHash": "b104db71f04c9e93e350df170249e5fd07623e27"
+            "contentHash": "b104db71f04c9e93e350df170249e5fd07623e27",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1449,30 +1449,29 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
             "isDirectory": false,
-            "size": 8877,
-            "modifiedTime": 1516911697234,
-            "changeTime": 1516911697234,
-            "contentHash": "d47e6ebffb196da816eb11bfec702f6cd3ba0029",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 10345,
+            "modifiedTime": 1517510645312,
+            "changeTime": 1517510645312,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "131e37ea0de09a2688536ce3e16ed350e682ed2d"
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 179,
             "modifiedTime": 1517508837834,
             "changeTime": 1517508837834,
-            "isWorkspace": false,
-            "contentHash": "0a15b49880adb4316e2657cfbee30a236c1592e4"
+            "contentHash": "0a15b49880adb4316e2657cfbee30a236c1592e4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
