@@ -79,7 +79,6 @@ public with sharing class  activityTrackerApexController {
     
       strike_responseData responseData = new strike_responseData();
       responseData.results = activityTrackerApexController.getData();
-      system.debug(responseData.getJsonString());
       return responseData.getJsonString();
     }
     
