@@ -108,14 +108,13 @@
         {
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.cmp",
             "isDirectory": false,
-            "size": 14182,
-            "modifiedTime": 1516913349345,
-            "changeTime": 1516913349345,
-            "contentHash": "90d7095b3ba3aefc1009dd03cf9b27c27b3184c9",
+            "size": 13894,
+            "modifiedTime": 1517591193668,
+            "changeTime": 1517591193668,
+            "contentHash": "0ed11f67f81d33853acd06132f7673c180b25e47",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -137,14 +136,13 @@
         {
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTracker.css",
             "isDirectory": false,
-            "size": 10,
-            "modifiedTime": 1516907463330,
-            "changeTime": 1516907463330,
-            "contentHash": "579b87c7a919b954ff62f1f28c2b20be3610eace",
+            "size": 70,
+            "modifiedTime": 1517590631616,
+            "changeTime": 1517590631616,
+            "contentHash": "b7c12c0f6f9f39c14d5fd1f58bb92d2d933027f9",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -152,29 +150,27 @@
         {
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerController.js",
             "isDirectory": false,
-            "size": 5411,
-            "modifiedTime": 1516918327166,
-            "changeTime": 1516918327168,
-            "contentHash": "86709f0b2aab630940bf9cba588a288fd70c2f97",
+            "size": 5609,
+            "modifiedTime": 1517590924813,
+            "changeTime": 1517590924813,
+            "contentHash": "7ac97a419e56ab8f32127c3891d7c18d398d3869",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerHelper.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\aura\\activityTracker\\activityTrackerHelper.js",
             "isDirectory": false,
-            "size": 4604,
-            "modifiedTime": 1516918697109,
-            "changeTime": 1516918697109,
-            "contentHash": "17a82ca7e09d4887bc0b3e54672fa5fd3f0c3689",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 4612,
+            "modifiedTime": 1517591531742,
+            "changeTime": 1517591531742,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "f279374861951bf5335c9e5f0c8d989cf93b43bf"
         }
     ],
     [
@@ -1449,15 +1445,15 @@
     [
         "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\madhuv\\Documents\\Salesforce_Workspaces\\activityTracker\\force-app\\main\\default\\classes\\activityTrackerApexController.cls",
             "isDirectory": false,
+            "size": 10294,
+            "modifiedTime": 1517510795379,
+            "changeTime": 1517510795379,
+            "contentHash": "87224abfd9bc746db7e8041faef29e4f56b03806",
             "isMetadataFile": false,
-            "size": 10345,
-            "modifiedTime": 1517510645312,
-            "changeTime": 1517510645312,
-            "isWorkspace": false,
-            "contentHash": "131e37ea0de09a2688536ce3e16ed350e682ed2d"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [

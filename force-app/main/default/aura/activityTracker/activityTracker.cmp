@@ -138,13 +138,8 @@
                 </div>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <c:strike_multiSelectPicklist label="Scientific Topic:" aura:id="scientificTopicSelect" 
-                                                      value="{!v.newTask.ONC_Scientific_Topic__c}" helpText="Click on the box below to select Scientific Topics">
-                            <aura:iteration items="{!v.scientificTopicOptions}" var="item">
-                                <c:strike_option label="{!item.label}" value="{!item.value}" />
-                            </aura:iteration>
-                        </c:strike_multiSelectPicklist>
-                        
+                        <lightning:dualListbox name="Select fields to irrigate" sourceLabel="Available Scientific Topics"
+                        selectedLabel="Selected Scientific Topics" options="{!v.scientificTopicOptions}" value="{!v.newTask.ONC_Scientific_Topic__c}" onchange="{!c.handleListChange}"/>
                     </div>
                 </div>
             </div>

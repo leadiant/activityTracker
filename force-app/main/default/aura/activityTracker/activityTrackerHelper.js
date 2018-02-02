@@ -99,7 +99,7 @@
         }
 
         // Status is Completed and Activity date is greater than today.
-        if (status === "Completed") {
+        if (newTask.Status === "Completed") {
             if (activitydate > today) {
                 isValid = false;
                 component.find("dueDate").showError("Due date for Completed status must be today or lower.");

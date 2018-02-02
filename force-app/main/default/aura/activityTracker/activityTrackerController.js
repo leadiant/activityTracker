@@ -138,5 +138,11 @@
         }
     },
 
+    handleListChange: function (component, event, helper) {
+        var value = event.getParam("value");
+        console.log("Value:" + value);
+        component.set("v.newTask.ONC_Scientific_Topic__c", value);
+    }
+
 
 })
