@@ -2,3 +2,8 @@
     width: 100%;
     height: 100%;
 }
+
+.THIS .myCheckbox{
+    display: inline-block;
+    float: left;
+  }

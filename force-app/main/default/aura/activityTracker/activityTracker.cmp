@@ -1,155 +1,128 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="activityTrackerApexController">
-    
-    <aura:attribute name="recordId" type="String" description="String value that holds Id of the Contact. Populated When Log A Call is clicked from Contact Details Page."/>
-    <aura:attribute name="selectedAccountName" type="String" description="String value that holds the name of the selected contact's Account Name" />
-    
-    
-    <aura:attribute name="statusOptions" type="SelectOption[]" description="Status Picklist options."/>
-    <aura:attribute name="subjectOptions" type="SelectOption[]" description="Subject Picklist options."/>
-    <aura:attribute name="callTypeOptions" type="SelectOption[]" />
-    <aura:attribute name="typeOfCallOptions" type="SelectOption[]" />
-    <aura:attribute name="scientificTopicOptions" type="SelectOption[]" />
-    <aura:attribute name="productOptions" type="SelectOption[]" />
-    <aura:attribute name="sourceTypeOptions" type="SelectOption[]" />
-    <aura:attribute name="educationalItemOptions" type="SelectOption[]" />
+
+    <aura:attribute name="recordId" type="String" description="String value that holds Id of the Contact. Populated When Log A Call is clicked from Contact Details Page."
+    />
+    <aura:attribute name="selectedAccountName" type="String" description="String value that holds the name of the selected contact's Account Name"
+    />
+
+
+    <aura:attribute name="statusOptions" type="Map[]" description="Status Picklist options." />
+    <aura:attribute name="subjectOptions" type="Map[]" description="Subject Picklist options." />
+    <aura:attribute name="callTypeOptions" type="Map[]" />
+    <aura:attribute name="typeOfCallOptions" type="Map[]" />
+    <aura:attribute name="scientificTopicOptions" type="Map[]" />
+    <aura:attribute name="productOptions" type="Map[]" />
+    <aura:attribute name="sourceTypeOptions" type="Map[]" />
+    <aura:attribute name="educationalItemOptions" type="Map[]" />
     <aura:attribute name="marketingMaterials" type="Object[]" />
-    
-    <aura:attribute access="public"  name="newTask" 			type="Task" default="{}"/>
-    <aura:attribute access="private" name="newMaterialItem" 	type="Material_Items__c" default="{}" description="New Material Item"/>
-    <aura:attribute access="public"  name="newMaterialItems"	type="Material_Items__c[]" description="Material Items"/>
-    
+
+    <aura:attribute name="value" type="List" default="option1" />
+
+    <aura:attribute access="public" name="newTask" type="Task" default="{}" />
+    <aura:attribute access="private" name="newMaterialItem" type="Material_Items__c" default="{}" description="New Material Item"
+    />
+    <aura:attribute access="public" name="newMaterialItems" type="Material_Items__c[]" description="Material Items" />
+
     <aura:attribute access="private" name="modal" type="Aura.Component" />
     <aura:attribute access="private" name="addMaterialItemComponent" type="Aura.Component" />
-    
-    
+
+
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:handler name="change" value="{!v.newTask.WhoId}" action="{!c.getContactInfo}" />
     <aura:handler name="change" value="{!v.newTask.Status}" action="{!c.handleTaskStatusChange}" />
-    
+
     <aura:dependency resource="markup://c:toaster" type="COMPONENT" />
-    
-    
-    <div class="slds-page-header">
-        
-        <!-- PAGE HEADER TOP ROW -->
-        <div class="slds-grid">
-            <div class="slds-col slds-has-flexi-truncate">
-                <!-- HEADING AREA -->
-                <!-- MEDIA OBJECT = FIGURE + BODY -->
-                <div class="slds-media slds-no-space slds-grow">
-                    <div class="slds-media__figure">
-                        <lightning:icon iconName="standard:call" alternativeText="Call" />
-                    </div>
-                    
-                    <div class="slds-media__body">
-                        <p class="slds-text-title--caps slds-line-height--reset">Log a Call
-                        </p>
-                        <h1 class="slds-page-header__title slds-m-right--small slds-align-middle slds-truncate" title="Leadiant Bioscience Inc.">Track Activities and Material Items.</h1>
-                    </div>
-                </div>
-                <!-- / MEDIA OBJECT -->
-                <!-- HEADING AREA -->
-                
-            </div>
-            <!-- / PAGE HEADER / ROW 1 / COLUMN 1 -->
-            <!-- PAGE HEADER / ROW 1 / COLUMN 2 -->
-            <div class="slds-col slds-no-flex slds-grid slds-align-top">
-                <lightning:button variant="brand" class="slds-button slds-button--neutral slds-m-top--medium" label="Save" disabled="{! or(empty(v.newTask.Active_Product__c),empty(v.newTask.WhoId) ) ? true : false}" onclick="{!c.handleClickSave}" />
-                <lightning:button variant="brand" class="slds-button slds-button--neutral slds-m-top--medium" label="Add Material Item" onclick="{!c.handleClickOpenModal}" disabled="{! or(empty(v.newTask.Active_Product__c),equals(v.newTask.Status,'Open')) ? true : false}" />
-                <lightning:button variant="brand" type="reset" class="slds-button slds-button--neutral slds-m-top--medium" label="Cancel" onclick="{!c.handleClickCancel}" />
-            </div>
-            <!-- / PAGE HEADER / ROW 1 / COLUMN 2 -->
-            
-        </div>
-        <!-- / PAGE HEADER TOP ROW -->
-        
-    </div>
-    
+
+    <lightning:card iconName="standard:call">
+        <aura:set attribute="title">
+            <p class="slds-text-title--caps slds-line-height--reset">Log a Call
+            </p>
+            <h1 class="slds-page-header__title slds-m-right--small slds-align-middle slds-truncate" title="Leadiant Bioscience Inc.">Track Activities and Material Items.</h1>
+        </aura:set>
+        <aura:set attribute="actions">
+            <lightning:button variant="brand" class="slds-button slds-button--neutral slds-m-top--medium" label="Save" disabled="{! or(empty(v.newTask.Active_Product__c),empty(v.newTask.WhoId) ) ? true : false}"
+                onclick="{!c.handleClickSave}" />
+            <lightning:button variant="brand" class="slds-button slds-button--neutral slds-m-top--medium" label="Add Material Item" onclick="{!c.handleClickOpenModal}"
+                disabled="{! or(empty(v.newTask.Active_Product__c),equals(v.newTask.Status,'Open')) ? true : false}" />
+            <lightning:button variant="brand" type="reset" class="slds-button slds-button--neutral slds-m-top--medium" label="Cancel"
+                onclick="{!c.handleClickCancel}" />
+        </aura:set>
+    </lightning:card>
+
     <c:toaster aura:id="toaster" />
-    
+
     <div class="slds-grid slds-m-top--small slds-card">
         <div class="slds-col slds-p-top--medium slds-p-left--medium slds-p-right--medium slds-p-bottom--medium">
             <div class="slds-form slds-form_compound" id="add-task-form">
                 <div class="slds-form-element__group">
                     <div class="slds-form-element__row">
-                        <c:strike_lookup disabled="{! empty(v.recordId)  ? false : true}" class="slds-size_1-of-2" 
-                                         aura:id="contactLookup" label="Contact:" object="Contact" 
-                                         value="{!v.newTask.WhoId}" valueSublabel="{!v.selectedAccountName}" searchField="Name" 
-                                         placeholder="Please enter minimum of two characters"
-                                         iconName="standard:contact" subtitleField="Account.Name" order="Name" limit="5" loadingMessage="Loading..." required="true" errorMessage="Invalid input" showRecentRecords="true" />
-                        <lightning:input aura:id="accountName" name="accountName" label="Account Name:" placeholder="Account Name" class="slds-size_1-of-2" value="{!v.selectedAccountName}" disabled="true" />
+                        <c:strike_lookup disabled="{! empty(v.recordId)  ? false : true}" class="slds-size_1-of-2" aura:id="contactLookup" label="Contact:"
+                            object="Contact" value="{!v.newTask.WhoId}" valueSublabel="{!v.selectedAccountName}" searchField="Name"
+                            placeholder="Please enter minimum of two characters" iconName="standard:contact" subtitleField="Account.Name"
+                            order="Name" limit="5" loadingMessage="Loading..." required="true" errorMessage="Invalid input" showRecentRecords="true"
+                        />
+                        <lightning:input aura:id="accountName" name="accountName" label="Account Name:" placeholder="Account Name" class="slds-size_1-of-2"
+                            value="{!v.selectedAccountName}" disabled="true" />
                     </div>
                 </div>
-                
+
                 <div class="slds-form-element__group">
                     <div class="slds-form-element__row">
-                        <lightning:select name="statusSelect" label="Status:" required="true" 
-							class="slds-size_1-of-2" aura:id="statusSelect" value="{!v.newTask.Status}" onchange="{!c.handleTaskStatusChange}" >
-                            <aura:iteration items="{!v.statusOptions}" var="item">
-									<option text="{!item.label}" value="{!item.value}" Selected="{!item.selected}" />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        
-                        <lightning:select name="subjectSelect" class="slds-size_1-of-2" label="Subject:" 
-                                          required="true" aura:id="subjectSelect" value="{!v.newTask.Subject}">
-                            <aura:iteration items="{!v.subjectOptions}" var="item">
-									<option text="{!item.label}" value="{!item.value}" Selected="{!item.selected}" />
-                            </aura:iteration>
-                        </lightning:select>
+
+                        <lightning:combobox aura:id="statusSelect" name="inputSourceReportFolder" label="Status" value="{!v.newTask.Status}" options="{!v.statusOptions}"
+                            placeholder="Select a Report Folder" required="true" class="slds-size_1-of-2" />
+
+                        <lightning:combobox name="subjectSelect" class="slds-size_1-of-2" label="Subject:" required="true" aura:id="subjectSelect"
+                            value="{!v.newTask.Subject}" options="{!v.subjectOptions}" />
                     </div>
                 </div>
-                
-                
+
                 <div class="slds-form-element__group">
                     <div class="slds-form-element__row">
-                        <lightning:select class="slds-size_1-of-2" name="callTypeSelect" label="Call Type:" 
-                                          required="true" aura:id="callTypeSelect" value="{!v.newTask.Call_Type__c}">
-                            <aura:iteration items="{!v.callTypeOptions}" var="item">
-									<option text="{!item.label}" value="{!item.value}" Selected="{!item.selected}" />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        <c:strike_datepicker label="Due Date" aura:id="dueDate" required="true" placeholder="Please provide Activity Date" 
-                                             valueFormat="yyyy-MM-dd" disabled="false" error="false" value="{!v.newTask.ActivityDate}" />
-                        
+                        <lightning:combobox class="slds-size_1-of-2" name="callTypeSelect" label="Call Type:" required="true" aura:id="callTypeSelect"
+                            value="{!v.newTask.Call_Type__c}" options="{!v.callTypeOptions}" />
+
+
+                        <c:strike_datepicker label="Due Date" aura:id="dueDate" required="true" placeholder="Please provide Activity Date" valueFormat="yyyy-MM-dd"
+                            disabled="false" error="false" value="{!v.newTask.ActivityDate}" />
+
                     </div>
                 </div>
-                
+
                 <div class="slds-form-element__group">
                     <div class="slds-form-element__row">
-                        
-                        <lightning:select class="slds-size_1-of-2" name="typeOfCallSelect" 
-                                          label="Type Of Call:" required="true" aura:id="typeOfCallSelect" value="{!v.newTask.ONC_Type_Call__c}">
-                            <aura:iteration items="{!v.typeOfCallOptions}" var="item">
-								<option text="{!item.label}" value="{!item.value}" Selected="{!item.selected}" />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        <lightning:select class="slds-size_1-of-2" name="select" 
-                                          disabled="{! empty(v.newTask.WhoId)  ? true : false}" label="Product:" aura:id="productSelect" value="{!v.newTask.Active_Product__c}">
-                            <aura:iteration items="{!v.productOptions}" var="item">
-                                <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" />
-                            </aura:iteration>
-                        </lightning:select>
-                        
-                        
+
+                        <lightning:combobox class="slds-size_1-of-2" name="typeOfCallSelect" label="Type Of Call:" required="true" aura:id="typeOfCallSelect"
+                            value="{!v.newTask.ONC_Type_Call__c}" options="{!v.typeOfCallOptions}" />
+
+                        <lightning:combobox class="slds-size_1-of-2" name="select" disabled="{! empty(v.newTask.WhoId)  ? true : false}" label="Product:"
+                            aura:id="productSelect" value="{!v.newTask.Active_Product__c}" options="{!v.productOptions}" />
+
                     </div>
                 </div>
+
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <lightning:dualListbox name="Select fields to irrigate" sourceLabel="Available Scientific Topics"
-                        selectedLabel="Selected Scientific Topics" options="{!v.scientificTopicOptions}" value="{!v.newTask.ONC_Scientific_Topic__c}" onchange="{!c.handleListChange}"/>
+                        <lightning:dualListbox name="Select fields to irrigate" sourceLabel="Available Scientific Topics" selectedLabel="Selected Scientific Topics"
+                            options="{!v.scientificTopicOptions}" value="{!v.newTask.ONC_Scientific_Topic__c}" onchange="{!c.handleListChange}"
+                        />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control" style="display:inline-flex">
+                        <lightning:checkboxGroup aura:id="mygroup" class="myCheckbox" name="checkboxGroup" label="Scientific Topics" options="{! v.scientificTopicOptions }"
+                            value="{! v.value }" onchange="{! c.handleListChange }" required="false" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
+
+
+
     <aura:if isTrue="{!v.newMaterialItems.length > 0}">
-        
+
         <div class="slds-grid slds-m-top--small">
             <div class="slds-col">
                 <article class="slds-card">
@@ -164,7 +137,7 @@
                             </div>
                         </header>
                     </div>
-                    
+
                     <div class="slds-card__body">
                         <table class="slds-table slds-table_bordered slds-table_cell-buffer">
                             <thead>
@@ -186,20 +159,21 @@
                                         <c:DataTableColumn label="Cron" title="{!row.Source_Type__c}">{!row.Source_Type__c}</c:DataTableColumn>
                                         <c:DataTableColumn label="Cron" title="{!row.Amount__c}">{!row.Amount__c}</c:DataTableColumn>
                                         <c:DataTableColumn label="Name" title="{!row.name}">
-                                            <lightning:buttonIcon iconName="utility:clear" variant="bare" alternativeText="Clear" iconClass="dark" onclick="{!c.handleClearClick }" value="{!index}" />
+                                            <lightning:buttonIcon iconName="utility:clear" variant="bare" alternativeText="Clear" iconClass="dark" onclick="{!c.handleClearClick }"
+                                                value="{!index}" />
                                         </c:DataTableColumn>
                                     </tr>
                                 </aura:iteration>
                             </tbody>
                         </table>
-                        
+
                     </div>
                 </article>
             </div>
         </div>
     </aura:if>
-    
-    
+
+
     <c:strike_modal aura:id="newMaterialItemModal" title="Add Material Item">
         <aura:set attribute="footerButtons">
             <div class="slds-modal__footer--directional">
@@ -208,7 +182,7 @@
             </div>
         </aura:set>
     </c:strike_modal>
-    
-    <c:Spinner aura:id="spinner"/>
-    
+
+    <c:Spinner aura:id="spinner" />
+
 </aura:component>

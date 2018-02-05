@@ -32,9 +32,10 @@
                     component.set('v.scientificTopicOptions', returnValue.results.data.find(record => record.field === 'ScientificTopic').values);
                     component.set('v.sourceTypeOptions', returnValue.results.data.find(record => record.field === 'SourceType').values);
                     component.set('v.marketingMaterials', returnValue.results.marketingMaterials);
+                    console.log(returnValue.results.data.find(record => record.field === 'CallType').values);
                 }
             }
-
+            
         });
 
         $A.enqueueAction(getOptionsAction);
@@ -57,7 +58,7 @@
             Priority: 'Normal',
             Status: 'Completed',
             Subject: 'Call',
-            Call_Type__c: 'In-Person Visit',
+            Call_Type__c: 'In-person Visit',
             ActivityDate: today.getFullYear() + "-" + ("0" + (today.getMonth() + 1)).slice(-2) + "-" + ("0" + today.getDate()).slice(-2),
             ONC_Type_Call__c: 'Branded',
             Active_Product__c: null,

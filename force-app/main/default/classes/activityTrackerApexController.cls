@@ -5,7 +5,7 @@ public with sharing class  activityTrackerApexController {
     //Default Subject
     public static final String DEFAULT_SUBJECT = 'Call';
     //Default Call Type
-    public static final String DEFAULT_CALLTYPE = 'In-Person Visit';
+    public static final String DEFAULT_CALLTYPE = 'In-person Visit';
     //Default Type Of Call
     public static final String DEFAULT_TYPEOFCALL = 'Branded';
 
@@ -199,9 +199,7 @@ public with sharing class  activityTrackerApexController {
         for(Schema.PicklistEntry entry : actONCSciTp.getPicklistValues()){
              scientificTopicOptions.add(new Map<String, Object>{
                     'label' => entry.getLabel(),
-                    'value' => entry.getValue(),
-                    'selected'=> true,
-                    'disabled'=>false
+                    'value' => entry.getValue()
                 });
         }
         
